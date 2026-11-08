@@ -1,0 +1,91 @@
+{
+  "version": "v1.0.0",
+  "device": "Jiefu / Jeff2021 / SN5BBAO",
+  "firmware": "PI.4333",
+  "android_api": 28,
+  "kernel": "4.9.113 ARM64",
+  "userspace_abi": "armeabi-v7a / ARM32 Thumb",
+  "date": "2026-11-08",
+  "files": [
+    {
+      "target": "/vendor/lib/hw/audio.primary.amlogic.so",
+      "artifact": "artifacts/rootfs/vendor/lib/hw/audio.primary.amlogic.so",
+      "component": "hal",
+      "bytes": 513754,
+      "sha256": "7e40c5b3ae752600f07a2e09b87c429761f0886b1a4d1c887dfabdc2fa01e0fd",
+      "source_sha256": "a436ebedcc7a6bde906d544b7d36b9faa8963fd792e1b2c416902c135b5e4c70",
+      "mode": "0644",
+      "owner": "root:root"
+    },
+    {
+      "target": "/vendor/lib/libdroidaudiospdif.so",
+      "artifact": "artifacts/rootfs/vendor/lib/libdroidaudiospdif.so",
+      "component": "packer",
+      "bytes": 613104,
+      "sha256": "2c817edf3354308766801b81e6e7db4fd8d69a07cef7b840451f86d009a10b22",
+      "source_sha256": "258aa7e2277c7740844afafb86c41587777bb093c699939c44a86ac62536ddfd",
+      "mode": "0644",
+      "owner": "root:root"
+    },
+    {
+      "target": "/vendor/etc/audio_policy_configuration.xml",
+      "artifact": "artifacts/rootfs/vendor/etc/audio_policy_configuration.xml",
+      "component": "policy",
+      "bytes": 12721,
+      "sha256": "511a3f90180838700eab58d5778f9e8306c79fa9e39284cffb6ad0df54b35451",
+      "source_sha256": "8dd45a5395c6d1ecc8321cefaf82ed3681897ff6989a3718d8fde98cfc428de4",
+      "mode": "0644",
+      "owner": "root:root"
+    },
+    {
+      "target": "/system/framework/arm/boot-framework.oat",
+      "artifact": "artifacts/rootfs/system/framework/arm/boot-framework.oat",
+      "component": "framework",
+      "bytes": 13142200,
+      "sha256": "a9e5ee40dd29f9e83cbac583b49489fc28b1d1110ae2867a1bc61f5aea99d1a0",
+      "source_sha256": "edd48176ecaeb772027894fbee5b7c20cc3e29c878661517dc1fc3b1f14609d1",
+      "mode": "0644",
+      "owner": "root:root"
+    },
+    {
+      "target": "/system/framework/boot-framework.vdex",
+      "artifact": "artifacts/rootfs/system/framework/boot-framework.vdex",
+      "component": "framework",
+      "bytes": 20657024,
+      "sha256": "004339a48183f6e0a5321dea07b3ca0728f36417ffd42870a646ce7d60298c27",
+      "source_sha256": "3e8cd3d87fedfd419221c7bbe4b1345dae43fd933964fdc5159c0cdb09f68b55",
+      "mode": "0644",
+      "owner": "root:root"
+    },
+    {
+      "target": "/system/lib/libaudioflinger.so",
+      "artifact": "artifacts/rootfs/system/lib/libaudioflinger.so",
+      "component": "flinger",
+      "bytes": 344160,
+      "sha256": "fa18e812aff9937149a8f25a6bd1ef1a1be74bbe9e406e3636f62141f43ec233",
+      "source_sha256": "b3fec98c77e404ea3d84ef47ef142732122340ea9da0339f5920a9f458766f17",
+      "mode": "0644",
+      "owner": "root:root"
+    }
+  ],
+  "verified_playback": {
+    "DD_AC3": "user_confirmed",
+    "DDP_EAC3": "user_confirmed",
+    "DTS": "user_confirmed",
+    "TrueHD": "user_confirmed_continuous_playback",
+    "DTS_HD_MA_7_1": "user_confirmed_continuous_playback",
+    "DTS_ES_6_1": "code_and_track_creation_only",
+    "Atmos": "code_analysis_only_not_receiver_verified"
+  },
+  "not_modified": [
+    "player APK or data",
+    "kernel",
+    "DTB",
+    "bootloader",
+    "HDR patch",
+    "CEC services.jar",
+    "Wi-Fi driver/firmware",
+    "framework.jar",
+    "libandroid_runtime.so (trial withdrawn)"
+  ]
+}

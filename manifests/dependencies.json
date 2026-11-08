@@ -1,0 +1,53 @@
+{
+  "reference_repository": "https://github.com/Jioyzen/s905x2-android12-audio-fix",
+  "reference_commit": "de6a1a0a98feb8e9e3181eddc80c87218251a3a4",
+  "ffmpeg_commit": "1041abdc962f4cc4f394aa8de9dc5236c0c3b9e7",
+  "ffmpeg_version": "n8.1.3",
+  "files": [
+    {
+      "path": "third_party/ffmpeg-armv7/config.h",
+      "sha256": "1f48b605d153cb15a6d86dc6050a6c9ecf02b5c9e6f8227ea3e80a584af5abfa",
+      "bytes": 24815
+    },
+    {
+      "path": "third_party/ffmpeg-armv7/config_components.h",
+      "sha256": "767a4858b853929b0dc6533975175db5df64950fb0b327a71f8516bade55daaa",
+      "bytes": 75831
+    },
+    {
+      "path": "third_party/ffmpeg-armv7/libavcodec.a",
+      "sha256": "0065613d322d91c4d063a09e24a2e37d3b91e37524ef33d372d940196bb95a51",
+      "bytes": 2443056
+    },
+    {
+      "path": "third_party/ffmpeg-armv7/libavformat.a",
+      "sha256": "b7a7d99bfe07785176c580cfeb0c7a339f00eb903264daeda0757420d52622bf",
+      "bytes": 1942518
+    },
+    {
+      "path": "third_party/ffmpeg-armv7/libavutil/avconfig.h",
+      "sha256": "975611ad5eba15212d9e1d5fca9d4fdf0daec6d2269b2fcab8e29af8667164bc",
+      "bytes": 180
+    },
+    {
+      "path": "third_party/ffmpeg-armv7/libavutil/ffversion.h",
+      "sha256": "07d4484c2fd5fe71d4963998886bee67d6845c2fcab82b5e7991ac3fc87e08c5",
+      "bytes": 185
+    },
+    {
+      "path": "third_party/ffmpeg-armv7/libavutil.a",
+      "sha256": "3c4427d477beff0ed7a2af8ff28242d5a16ff8d4da7a0c33f19bb15c6533d6ed",
+      "bytes": 3382000
+    },
+    {
+      "path": "third_party/link-stubs/libc++.so",
+      "sha256": "50cfa79deabd520fcc285ae2b34548cd5a99226e151c9a955c8dd8ad8a6a51c9",
+      "bytes": 485440
+    },
+    {
+      "path": "third_party/FFmpeg-n8.1.3-source.tar.xz",
+      "sha256": "64cc880210dcf735592d55af6d293ef4bbf8921b4ef5d70cff6d3d817fd597bd",
+      "bytes": 13044788
+    }
+  ]
+}

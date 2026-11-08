@@ -1,0 +1,22 @@
+--- original/vendor/etc/audio_policy_configuration.xml
++++ patched/vendor/etc/audio_policy_configuration.xml
+@@ -53,6 +53,10 @@
+             </attachedDevices>
+             <defaultOutputDevice>Speaker</defaultOutputDevice>
+             <mixPorts>
++                <!-- Non-tunneled compressed AudioTrack; capabilities queried from EDID by HAL. -->
++                <mixPort name="direct raw" role="source" flags="AUDIO_OUTPUT_FLAG_DIRECT">
++                    <profile name=""/>
++                </mixPort>
+                 <mixPort name="primary output" role="source" flags="AUDIO_OUTPUT_FLAG_PRIMARY">
+                     <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
+                              samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+@@ -166,7 +170,7 @@
+             <!-- route declaration, i.e. list all available sources for a given sink -->
+             <routes>
+             <route type="mix" sink="HDMI Out"
+-                       sources="primary output,tunnel pcm,multichannel output"/>
++                       sources="primary output,tunnel pcm,multichannel output,direct raw"/>
+                 <route type="mix" sink="Speaker"
+                        sources="primary output,tunnel pcm,BT SCO Headset Mic"/>
+                 <route type="mix" sink="Wired Headset"

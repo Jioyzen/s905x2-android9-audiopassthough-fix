@@ -1,0 +1,98 @@
+{
+  "reference_repository": "https://github.com/Jioyzen/s905x2-android12-audio-fix",
+  "reference_commit": "de6a1a0a98feb8e9e3181eddc80c87218251a3a4",
+  "files": [
+    {
+      "path": "src/spdif/AC3FrameScanner.cpp",
+      "sha256": "6fc1894f5e9c358cf76f12e559afd841d857f204a3b35772ba41d29007a0c2db",
+      "reference_sha256": "6fc1894f5e9c358cf76f12e559afd841d857f204a3b35772ba41d29007a0c2db"
+    },
+    {
+      "path": "src/spdif/AC3FrameScanner.h",
+      "sha256": "f6fe51122cb94188c365a82b8e096a2b72789e4910c7c8e94c53d0b3eb2d94fa",
+      "reference_sha256": "f6fe51122cb94188c365a82b8e096a2b72789e4910c7c8e94c53d0b3eb2d94fa"
+    },
+    {
+      "path": "src/spdif/BitFieldParser.cpp",
+      "sha256": "81145a752436aeedac18cc9b0dbdc8fd475c507f0b115bd041c58994e5d288c0",
+      "reference_sha256": "81145a752436aeedac18cc9b0dbdc8fd475c507f0b115bd041c58994e5d288c0"
+    },
+    {
+      "path": "src/spdif/BitFieldParser.h",
+      "sha256": "4c099ee8594031df5879b337ee9ef31cea7fb8dd65fedf9c4ceddd9095e956cf",
+      "reference_sha256": "4c099ee8594031df5879b337ee9ef31cea7fb8dd65fedf9c4ceddd9095e956cf"
+    },
+    {
+      "path": "src/spdif/DTSFrameScanner.cpp",
+      "sha256": "53ded5ff0a49b4886a934dca3715e2cb7d0f36d3d206f12a9ed1c290e809685a",
+      "reference_sha256": "53ded5ff0a49b4886a934dca3715e2cb7d0f36d3d206f12a9ed1c290e809685a"
+    },
+    {
+      "path": "src/spdif/DTSFrameScanner.h",
+      "sha256": "3a9d768edee2cd31a9b8f7fbef23d3d72bdf9d236f26e8c03ac2cbee424035e2",
+      "reference_sha256": "3a9d768edee2cd31a9b8f7fbef23d3d72bdf9d236f26e8c03ac2cbee424035e2"
+    },
+    {
+      "path": "src/spdif/FrameScanner.cpp",
+      "sha256": "8548980e9ddafbe4a3706b6719141242b41da8872905c1724272c35f92ee6695",
+      "reference_sha256": "8548980e9ddafbe4a3706b6719141242b41da8872905c1724272c35f92ee6695"
+    },
+    {
+      "path": "src/spdif/FrameScanner.h",
+      "sha256": "1f0b9d3cb7cae7b49dccb0dc13d5dacf2babf0c3bf2917c9413899778fe65fa7",
+      "reference_sha256": "1f0b9d3cb7cae7b49dccb0dc13d5dacf2babf0c3bf2917c9413899778fe65fa7"
+    },
+    {
+      "path": "src/spdif/SPDIFEncoder.h",
+      "sha256": "6d75688d5d20a8a36be89f663857ccca2dec10f8a4a307614bb22e1a99939ce0",
+      "reference_sha256": "6d75688d5d20a8a36be89f663857ccca2dec10f8a4a307614bb22e1a99939ce0"
+    },
+    {
+      "path": "src/spdif/SPDIFEncoderHD.cpp",
+      "sha256": "92e971874e0b947abbe515c6f2f04bb5e2b8b94de874cec5868676cc21ab5575",
+      "reference_sha256": "dddc3e33dfda68c28e4a22642a1525c5b4ce7d4d008b2042ac501960d6b44c6c"
+    },
+    {
+      "path": "src/spdif/abi_alias.S",
+      "sha256": "eea10148204e1233b2227e5e12817b3b80935c8bd81052bb40808e4e27c65101",
+      "reference_sha256": "eea10148204e1233b2227e5e12817b3b80935c8bd81052bb40808e4e27c65101"
+    },
+    {
+      "path": "src/spdif/ffmpeg_hdpack.c",
+      "sha256": "43bb5dd21957f09b73168ab26f25cb1f0aa6d0d66f8d56ebe43bd851b5574390",
+      "reference_sha256": "43bb5dd21957f09b73168ab26f25cb1f0aa6d0d66f8d56ebe43bd851b5574390"
+    },
+    {
+      "path": "src/spdif/hdpack.h",
+      "sha256": "c42bfb840ef37e5d3b17d15cdb0a8c887a13a57c547dc345f54d957f08aebc2d",
+      "reference_sha256": "c42bfb840ef37e5d3b17d15cdb0a8c887a13a57c547dc345f54d957f08aebc2d"
+    },
+    {
+      "path": "src/spdif/include/audio_utils/spdif/FrameScanner.h",
+      "sha256": "1f0b9d3cb7cae7b49dccb0dc13d5dacf2babf0c3bf2917c9413899778fe65fa7",
+      "reference_sha256": "1f0b9d3cb7cae7b49dccb0dc13d5dacf2babf0c3bf2917c9413899778fe65fa7"
+    },
+    {
+      "path": "src/spdif/include/audio_utils/spdif/SPDIFEncoder.h",
+      "sha256": "6d75688d5d20a8a36be89f663857ccca2dec10f8a4a307614bb22e1a99939ce0",
+      "reference_sha256": "6d75688d5d20a8a36be89f663857ccca2dec10f8a4a307614bb22e1a99939ce0"
+    },
+    {
+      "path": "src/spdif/include/log/log.h",
+      "sha256": "313ee691e7299bc29804de413b4fed1e75ab87d7e761c3dbec09062fc3736287",
+      "reference_sha256": "313ee691e7299bc29804de413b4fed1e75ab87d7e761c3dbec09062fc3736287"
+    },
+    {
+      "path": "src/spdif/include/system/audio.h",
+      "sha256": "62fcad94e8d290adaef9519d5f0d8c5f0d8e21ae63cb3703cc3876114c323e61",
+      "reference_sha256": "62fcad94e8d290adaef9519d5f0d8c5f0d8e21ae63cb3703cc3876114c323e61"
+    }
+  ],
+  "adaptations": [
+    "Jiefu API28 log header disables bytewise verbose",
+    "Jiefu ARM32 HAL offsets, layout and clock fixes",
+    "Jiefu createTrack_l ARM32 ABI buffer hook",
+    "Portable build paths and source __FILE__ normalization",
+    "Clarified inherited packer comment; code unchanged"
+  ]
+}

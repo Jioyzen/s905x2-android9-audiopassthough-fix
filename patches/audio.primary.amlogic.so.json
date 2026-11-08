@@ -1,0 +1,119 @@
+{
+  "target": "/vendor/lib/hw/audio.primary.amlogic.so",
+  "source_sha256": "a436ebedcc7a6bde906d544b7d36b9faa8963fd792e1b2c416902c135b5e4c70",
+  "sha256": "7e40c5b3ae752600f07a2e09b87c429761f0886b1a4d1c887dfabdc2fa01e0fd",
+  "size": 513754,
+  "encoding": "after=zlib+base64; before=hex",
+  "ranges": [
+    {
+      "offset": 180,
+      "before": "04",
+      "after": "eNpjBAAAAgAC"
+    },
+    {
+      "offset": 184,
+      "before": "340100",
+      "after": "eNpjuMAOAAGqANg="
+    },
+    {
+      "offset": 188,
+      "before": "340100",
+      "after": "eNpjOMAOAAGKAMg="
+    },
+    {
+      "offset": 192,
+      "before": "340100",
+      "after": "eNpjOMAOAAGKAMg="
+    },
+    {
+      "offset": 196,
+      "before": "3800",
+      "after": "eNq7xQYAAbwA4Q=="
+    },
+    {
+      "offset": 200,
+      "before": "3800",
+      "after": "eNq7xQYAAbwA4Q=="
+    },
+    {
+      "offset": 204,
+      "before": "04",
+      "after": "eNpjBQAABgAG"
+    },
+    {
+      "offset": 208,
+      "before": "0400",
+      "after": "eNpjEAAAABIAEQ=="
+    },
+    {
+      "offset": 86060,
+      "before": "c7e91432",
+      "after": "eNpL/1C7CwAGJAKP"
+    },
+    {
+      "offset": 101012,
+      "before": "99f81801",
+      "after": "eNpL/pC8FwAF4wJ0"
+    },
+    {
+      "offset": 102838,
+      "before": "86",
+      "after": "eNpLBgAAZABk"
+    },
+    {
+      "offset": 102840,
+      "before": "1f02",
+      "after": "eNpL3gkAAYEBHQ=="
+    },
+    {
+      "offset": 103378,
+      "before": "02",
+      "after": "eNpLBgAAZABk"
+    },
+    {
+      "offset": 103380,
+      "before": "6dfa",
+      "after": "eNor/AEAAdwBag=="
+    },
+    {
+      "offset": 108918,
+      "before": "d6f80801",
+      "after": "eNpL/LB6LwAGawK6"
+    },
+    {
+      "offset": 109270,
+      "before": "d4f80801",
+      "after": "eNpL/CCyFwAFPQIj"
+    },
+    {
+      "offset": 112070,
+      "before": "4ff48040",
+      "after": "eNpL+GC5HwAFhQJJ"
+    },
+    {
+      "offset": 136688,
+      "before": "51f82050",
+      "after": "eNqL+hC8HwAFoQJd"
+    },
+    {
+      "offset": 141436,
+      "before": "2de9f043",
+      "after": "eNqL/KC1BwAFSAIw"
+    },
+    {
+      "offset": 164828,
+      "before": "b5f1206f",
+      "after": "eNoL+WC/AwAFWgI8"
+    },
+    {
+      "offset": 489852,
+      "before": "01",
+      "after": "eNpjAQAABQAF"
+    },
+    {
+      "offset": 510788,
+      "before": "",
+      "after": "eNrtVH1sU1UUP7d9/dhH15WNWEkDj9Wabt1YgQyNYuy219tNurWDkWAYdB+gwww6MyCbgVCU4DJR94cxYJZhxBE+ZuiAmW2svpksESPE97IGR2Zi/9B0g6ivj23vFXDzvkEQo/5l/MNkJzn33nfPOff8ztcDWKRFWqRF+v8RLcDrfQlX0MIC3ewJ9QcxCBoZ7GYW0aEIsEK/+kLBFKR9NnN492EiSyYpnFNWITaienMrAyvB1ukBe1FUiyvEEBgSOr3NXCHuBYpx4mLsmw7Vu0RU+rGHwk58xgM2lL9iIqtskHjMeimrvJXRy5T/DaaNIf6wCw8maoN61kT87E1qyJczqOfTysmr0MaA8FryTEk7q8F2bCBoIpOQJkSGNABYC+Am3KicCSuYK2QqYiDvnE1u6VteTmGg2xiDXcfl1KTVIOdHJTLniIEtL9ZPfJjZfoInjbfjeenteZ1ddTOr4iCTFtPyS8iuIzq1QYHLimntprEMcgPC/qQWe2eP+Veb7bjd4+zTYK9Y41ptpskXxGwE4TaZuiKQ/B0jeOopgPuENz6GrStswASVUJX0zg5XYTM6CzTktFejNU1593hGpE3o3FWxCdE4TPKbGkUnDvZpcy3jiG53ZQrVxic4oC0xRnSbaDwqUigPZ8c6lgOtyjONaXKNnDbXxP8hhRzNY7ooJ+yxhB8gpDEjukxhz2z8Ua116tY3cVhGI+mOI6xPgHSwQt7L3LoyrxjQe8XtKb5p1/ZW5tvZ+VbCbSYZbVU70sd7Eoe0ozWf3z06uz+lp0TPbresxei5X/nnY8tXUKts4xrrD5NaQU1lLNGDGM+4pVmvtf4S11uHEyhdz6ZYJ+PeWxqLzvoj2ZdmnZoJMacSunTGTRCon13A4XW3s8g6AWPxbO8BxsJkyynenhI1j9YaHF/z2TGCQK3oXbr71p2tKSPxiYu+Wxa6g0TSIatIq3fI4CRdoyN1oZWbczIAomfiH5LaLCPM9asuUJiTpyFMuoJio3IvUk7AcZGoLMOG2dDa4yUUe1m+D5nT7cE7PCU+mTkvNcyD/WfOJ7hq56VX58Ae50DYKX8gm025gzDzvRMSPyGlMypnoXZEVMGofA0U7VHyPhd52BHvdsoQGkiAsYQ7Qrq1Hhuwo9XRt0RGG1BRF+lXW6wU1+OsS/kOFUduX0zGyeqj8+9xnyacStwZKQ7DOLJl3H5Pu2kbKqJuY+2phJM6nXBmpOZbsDh21H2VbcYoZpHR+4onMzuQSDVK/INzOqlD10MMLA8xoEmHvCNEotELIgVe8aniEVGHXMuaPQVTQulpKWeIukwiqicRqUhEtD5nVI7S1LBvGlxk7qtOSgMDBVNGvzJV134De2TS6Fdz53EhPi9dJxNHB89LYfam3LvyIpkvFXeRzCDw2qePCitUXVLnFyT7Vf0LEmU6VXymrUf6ZKBKpv09UvcAJ/ea+hakyt8L8T3SgYGTkjB4Y6FmtUEjXzC1yn9D1iO0cl5i5iKTq/w6DHY00S1tG+qWAkOKrFtaPxR9aJG6YBElt0AsHAsW3RJciS7ojQ+RGl3/Tu79cpjoarhhBRNZnUENbxZcRhX/1VT2KyhG1jUkb9+A/bi0K6LEX4arcB7JATenZIDEi5Z2npDNqEt6d6hlX3OgobFuz56dTS0vFG9myn2B0rLiykq3N+DbXB3YVO3e6PYd+KugyO8rr6xe/TeSdf8oeeaBBJjqTQVlTD4UtrS1FDY01bW0FNbtbtyxe9fe1kcHZ2Hdvh2Bhrpm+M8Q/vnlf+tHiSofKoqr8+HQXAjt2ELbfgeTWNMo"
+    }
+  ]
+}

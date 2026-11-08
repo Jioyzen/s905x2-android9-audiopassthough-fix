@@ -1,0 +1,59 @@
+{
+  "target": "/system/lib/libaudioflinger.so",
+  "source_sha256": "b3fec98c77e404ea3d84ef47ef142732122340ea9da0339f5920a9f458766f17",
+  "sha256": "fa18e812aff9937149a8f25a6bd1ef1a1be74bbe9e406e3636f62141f43ec233",
+  "size": 344160,
+  "encoding": "after=zlib+base64; before=hex",
+  "ranges": [
+    {
+      "offset": 180,
+      "before": "04",
+      "after": "eNpjBAAAAgAC"
+    },
+    {
+      "offset": 184,
+      "before": "340100",
+      "after": "eNpjcGAFAACIAEY="
+    },
+    {
+      "offset": 188,
+      "before": "346100",
+      "after": "eNpjcGAFAACIAEY="
+    },
+    {
+      "offset": 192,
+      "before": "346100",
+      "after": "eNpjcGAFAACIAEY="
+    },
+    {
+      "offset": 196,
+      "before": "38",
+      "after": "eNpLAAAAYQBh"
+    },
+    {
+      "offset": 200,
+      "before": "38",
+      "after": "eNpLAAAAYQBh"
+    },
+    {
+      "offset": 204,
+      "before": "04",
+      "after": "eNpjBQAABgAG"
+    },
+    {
+      "offset": 208,
+      "before": "0400",
+      "after": "eNpjEAAAABIAEQ=="
+    },
+    {
+      "offset": 98104,
+      "before": "2de9f04f",
+      "after": "eNoz+5C0AwAFKAJB"
+    },
+    {
+      "offset": 340288,
+      "before": "",
+      "after": "eNpjYBgFo2AUjIJRMApGwSgYBaNgFIyCUTAKBj/QfckfcPeHwoE9Hw3yWS/s+eiQzwQkE/JlLt79YQEUZeAXv3DnBwOYJQQUcwCzeMFiMh8C+Dkucs003MiVsekrgz3TJf8vDEZcCXtf8Afovvzgf/J73n4AirAwog=="
+    }
+  ]
+}

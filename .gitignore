@@ -1,0 +1,8 @@
+/baseline/
+/build/
+/dist/
+/fixtures/
+/.venv/
+__pycache__/
+*.pyc
+*.log

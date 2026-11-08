@@ -1,0 +1,11 @@
+{
+  "missing_runtime_symbols": [],
+  "original_wrapper_imports_preserved": [
+    "_ZN7android12SPDIFEncoder5resetEv",
+    "_ZN7android12SPDIFEncoder5writeEPKvj",
+    "_ZN7android12SPDIFEncoderC2E14audio_format_t",
+    "_ZN7android12SPDIFEncoderD2Ev"
+  ],
+  "base_object_size": 48,
+  "target_android_api": 28
+}

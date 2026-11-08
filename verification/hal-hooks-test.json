@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "HBR 192k; TrueHD/DTS-HD buffer 32768 physical frames; scratch/stack preserved",
+    "Source whitelist: 14 supported/unsupported format cases preserve legacy behavior and admit HD only with EDID support",
+    "36 64-bit SPDIF counter cases: TrueHD/DTS-HD /64 plus stream baseline; core/EAC3 unchanged, no 32-bit truncation",
+    "Latency frame hook converts HBR /16; independent millisecond table is /4 at 192k",
+    "HBR presentation subtracts content frames instead of milliseconds; other formats keep original call and LR",
+    "14 PCM pause/resume states: never PREPARE an existing prepared/running MAT ring; PAUSED resumes without reset; XRUN recovers",
+    "Pause/resume supplement is TrueHD-only; 10 other format paths retain original targets",
+    "24 capability cases: software fallback for TrueHD/DTS without HW_AV_SYNC; preserve live CMP flags and registers"
+  ],
+  "audio_output_performed": false
+}

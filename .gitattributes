@@ -1,0 +1,8 @@
+# Preserve exact generated/vendor bytes, including existing trailing spaces.
+artifacts/rootfs/vendor/etc/audio_policy_configuration.xml whitespace=-blank-at-eol
+third_party/ffmpeg-armv7/config.h whitespace=-blank-at-eol
+*.so binary
+*.oat binary
+*.vdex binary
+*.a binary
+*.xz binary

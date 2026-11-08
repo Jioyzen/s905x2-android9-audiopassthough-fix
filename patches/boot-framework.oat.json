@@ -1,0 +1,29 @@
+{
+  "target": "/system/framework/arm/boot-framework.oat",
+  "source_sha256": "edd48176ecaeb772027894fbee5b7c20cc3e29c878661517dc1fc3b1f14609d1",
+  "sha256": "a9e5ee40dd29f9e83cbac583b49489fc28b1d1110ae2867a1bc61f5aea99d1a0",
+  "size": 13142200,
+  "encoding": "after=zlib+base64; before=hex",
+  "ranges": [
+    {
+      "offset": 7414042,
+      "before": "67",
+      "after": "eNpLBAAAYgBi"
+    },
+    {
+      "offset": 8434890,
+      "before": "4d",
+      "after": "eNp7CAAA4gDi"
+    },
+    {
+      "offset": 8435210,
+      "before": "4d",
+      "after": "eNp7CAAA4gDi"
+    },
+    {
+      "offset": 8435500,
+      "before": "45",
+      "after": "eNrzBAAASgBK"
+    }
+  ]
+}

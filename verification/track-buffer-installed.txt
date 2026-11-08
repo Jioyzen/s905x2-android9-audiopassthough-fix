@@ -1,0 +1,11 @@
+encoding=5 mask=252 state=1 buffer=4104 capacity=4104 NO_PLAY_NO_WRITE
+encoding=6 mask=252 state=1 buffer=4104 capacity=4104 NO_PLAY_NO_WRITE
+encoding=7 mask=252 state=1 buffer=131072 capacity=131072 NO_PLAY_NO_WRITE
+encoding=7 mask=1276 state=1 buffer=131072 capacity=131072 NO_PLAY_NO_WRITE
+encoding=7 mask=6396 state=1 buffer=131072 capacity=131072 NO_PLAY_NO_WRITE
+encoding=8 mask=252 state=1 buffer=131072 capacity=131072 NO_PLAY_NO_WRITE
+encoding=8 mask=1276 state=1 buffer=131072 capacity=131072 NO_PLAY_NO_WRITE
+encoding=8 mask=6396 state=1 buffer=131072 capacity=131072 NO_PLAY_NO_WRITE
+encoding=14 mask=252 state=1 buffer=131072 capacity=131072 NO_PLAY_NO_WRITE
+encoding=14 mask=1276 state=1 buffer=131072 capacity=131072 NO_PLAY_NO_WRITE
+encoding=14 mask=6396 state=1 buffer=131072 capacity=131072 NO_PLAY_NO_WRITE

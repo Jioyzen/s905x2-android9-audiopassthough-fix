@@ -1,0 +1,108 @@
+{
+  "source_sha256": "a436ebedcc7a6bde906d544b7d36b9faa8963fd792e1b2c416902c135b5e4c70",
+  "sha256": "7e40c5b3ae752600f07a2e09b87c429761f0886b1a4d1c887dfabdc2fa01e0fd",
+  "new_load_vaddr": "0x7c000",
+  "new_load_file_offset": "0x7d000",
+  "new_load_bytes": 1754,
+  "patches": [
+    {
+      "vaddr": "0x2287c",
+      "before": "2de9f043",
+      "after": "59f02abc",
+      "destination": "0x7c0d4"
+    },
+    {
+      "vaddr": "0x1b5c6",
+      "before": "4ff48040",
+      "after": "60f039bf",
+      "destination": "0x7c43c"
+    },
+    {
+      "vaddr": "0x283dc",
+      "before": "b5f1206f",
+      "after": "54f03fb8",
+      "destination": "0x7c45e"
+    },
+    {
+      "vaddr": "0x191b6",
+      "before": "86f01f02",
+      "after": "63f063b9",
+      "destination": "0x7c480"
+    },
+    {
+      "vaddr": "0x193d2",
+      "before": "02f06dfa",
+      "after": "63f071f8",
+      "destination": "0x7c4b8"
+    },
+    {
+      "vaddr": "0x215f0",
+      "before": "51f82050",
+      "after": "5af053bf",
+      "destination": "0x7c49a"
+    },
+    {
+      "vaddr": "0x1a976",
+      "before": "d6f80801",
+      "after": "61f0abbd",
+      "destination": "0x7c4d0"
+    },
+    {
+      "vaddr": "0x1aad6",
+      "before": "d4f80801",
+      "after": "61f014bd",
+      "destination": "0x7c502"
+    },
+    {
+      "vaddr": "0x1502c",
+      "before": "c7e91432",
+      "after": "67f07dba",
+      "destination": "0x7c52a"
+    },
+    {
+      "vaddr": "0x18a94",
+      "before": "99f81801",
+      "after": "63f063bd",
+      "destination": "0x7c55e"
+    },
+    {
+      "vaddr": "0x7797c",
+      "before": "01000000",
+      "after": "04000000",
+      "purpose": "TrueHD ALSA delay /4 before converting at nominal 192k"
+    }
+  ],
+  "symbols": {
+    "jf_hd_supported": "0x7c000",
+    "jf_load_bias": "0x7c424",
+    "jf_sink_cap": "0x7c0d4",
+    "jf_original_cap": "0x7c434",
+    "jf_truehd_pcm_pause": "0x7c170",
+    "jf_dts_boundary": "0x7c20c",
+    "jf_dts_prepare": "0x7c30c",
+    "jf_cap_resume": "0x22880",
+    "jf_hbr_rate": "0x7c43c",
+    "jf_hbr_resume": "0x1b5ce",
+    "jf_source_format": "0x7c45e",
+    "jf_source_allowed": "0x28412",
+    "jf_source_original": "0x283e0",
+    "jf_spdif_count_shift": "0x7c480",
+    "jf_count_resume": "0x191ba",
+    "jf_latency_frames": "0x7c49a",
+    "jf_latency_resume": "0x215f4",
+    "jf_presentation_latency": "0x7c4b8",
+    "jf_original_latency_frames": "0x215c4",
+    "jf_original_latency_ms": "0x1b8b0",
+    "jf_truehd_pause": "0x7c4d0",
+    "jf_pause_done": "0x1a9b0",
+    "jf_pause_error": "0x1a9b8",
+    "jf_pause_legacy": "0x1a97a",
+    "jf_truehd_resume": "0x7c502",
+    "jf_resume_result": "0x1ab22",
+    "jf_resume_legacy": "0x1aada",
+    "jf_pause_capability": "0x7c52a",
+    "jf_pause_cap_resume": "0x15030",
+    "jf_dts_write_probe": "0x7c55e",
+    "jf_dts_write_resume": "0x18a98"
+  }
+}

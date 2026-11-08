@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "name": "boot-framework.oat",
+      "source_sha256": "edd48176ecaeb772027894fbee5b7c20cc3e29c878661517dc1fc3b1f14609d1",
+      "sha256": "a9e5ee40dd29f9e83cbac583b49489fc28b1d1110ae2867a1bc61f5aea99d1a0",
+      "changed_bytes": 4,
+      "bytes": 13142200
+    },
+    {
+      "name": "boot-framework.vdex",
+      "source_sha256": "3e8cd3d87fedfd419221c7bbe4b1345dae43fd933964fdc5159c0cdb09f68b55",
+      "sha256": "004339a48183f6e0a5321dea07b3ca0728f36417ffd42870a646ce7d60298c27",
+      "changed_bytes": 4,
+      "bytes": 20657024
+    }
+  ],
+  "edits": [
+    {
+      "file": "boot-framework.oat",
+      "method": "AudioFormat.public/valid",
+      "offset": "0x80b72c",
+      "before": 69,
+      "after": 73,
+      "encoding": 14
+    },
+    {
+      "file": "boot-framework.oat",
+      "method": "AudioFormat.isEncodingLinearFrames",
+      "offset": "0x80b4ca",
+      "before": 77,
+      "after": 225,
+      "encoding": 14
+    },
+    {
+      "file": "boot-framework.oat",
+      "method": "AudioFormat.isEncodingLinearPcm",
+      "offset": "0x80b60a",
+      "before": 77,
+      "after": 225,
+      "encoding": 14
+    },
+    {
+      "file": "boot-framework.oat",
+      "method": "AudioFormat.Builder.setEncoding",
+      "offset": "0x71211a",
+      "before": 103,
+      "after": 97,
+      "encoding": 14
+    },
+    {
+      "file": "boot-framework.vdex",
+      "method": "AudioFormat.public/valid",
+      "offset": "0x454d58",
+      "before": 3,
+      "after": 5,
+      "encoding": 14
+    },
+    {
+      "file": "boot-framework.vdex",
+      "method": "AudioFormat.isEncodingLinearPcm",
+      "offset": "0x454cf8",
+      "before": 3,
+      "after": 26,
+      "encoding": 14
+    },
+    {
+      "file": "boot-framework.vdex",
+      "method": "AudioFormat.isEncodingLinearFrames",
+      "offset": "0x454c68",
+      "before": 3,
+      "after": 26,
+      "encoding": 14
+    },
+    {
+      "file": "boot-framework.vdex",
+      "method": "AudioFormat.Builder.setEncoding",
+      "offset": "0x454ab8",
+      "before": 3,
+      "after": 26,
+      "encoding": 14
+    }
+  ]
+}

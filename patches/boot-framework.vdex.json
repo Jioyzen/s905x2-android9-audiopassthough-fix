@@ -1,0 +1,29 @@
+{
+  "target": "/system/framework/boot-framework.vdex",
+  "source_sha256": "3e8cd3d87fedfd419221c7bbe4b1345dae43fd933964fdc5159c0cdb09f68b55",
+  "sha256": "004339a48183f6e0a5321dea07b3ca0728f36417ffd42870a646ce7d60298c27",
+  "size": 20657024,
+  "encoding": "after=zlib+base64; before=hex",
+  "ranges": [
+    {
+      "offset": 4541112,
+      "before": "03",
+      "after": "eNqTAgAAGwAb"
+    },
+    {
+      "offset": 4541544,
+      "before": "03",
+      "after": "eNqTAgAAGwAb"
+    },
+    {
+      "offset": 4541688,
+      "before": "03",
+      "after": "eNqTAgAAGwAb"
+    },
+    {
+      "offset": 4541784,
+      "before": "03",
+      "after": "eNpjBQAABgAG"
+    }
+  ]
+}

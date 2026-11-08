@@ -1,0 +1,77 @@
+{
+  "passed": [
+    {
+      "fixture": "dts.dts",
+      "chunk": 1,
+      "hd_detected": false
+    },
+    {
+      "fixture": "dts.dts",
+      "chunk": 7,
+      "hd_detected": false
+    },
+    {
+      "fixture": "dts.dts",
+      "chunk": 2052,
+      "hd_detected": false
+    },
+    {
+      "fixture": "dts.dts",
+      "chunk": 4096,
+      "hd_detected": false
+    },
+    {
+      "fixture": "dts-full.dts",
+      "chunk": 1,
+      "hd_detected": false
+    },
+    {
+      "fixture": "dts-full.dts",
+      "chunk": 7,
+      "hd_detected": false
+    },
+    {
+      "fixture": "dts-full.dts",
+      "chunk": 2052,
+      "hd_detected": false
+    },
+    {
+      "fixture": "dts-full.dts",
+      "chunk": 4096,
+      "hd_detected": false
+    },
+    {
+      "fixture": "dtshd.dts",
+      "chunk": 1,
+      "hd_detected": true
+    },
+    {
+      "fixture": "dtshd.dts",
+      "chunk": 7,
+      "hd_detected": true
+    },
+    {
+      "fixture": "dtshd.dts",
+      "chunk": 2052,
+      "hd_detected": true
+    },
+    {
+      "fixture": "dtshd.dts",
+      "chunk": 4096,
+      "hd_detected": true
+    },
+    {
+      "negative": "core payload EXSS is ignored; leading noise and fragmented sync recover"
+    },
+    {
+      "prepare": "24 ARM cases: EDID denied, tunnel/IEC prepacked, 96k and other codecs untouched; public format and 64-bit frame baseline preserved"
+    },
+    {
+      "DTS_ES_core": "6 mask/payload combinations including 0x13f remain native DTS/48k, without HD promotion or standby; synthetic layout coverage, not a real DTS-ES listening test"
+    },
+    {
+      "trampoline": "write arguments, original standby load, live internal-format stack snapshot and stack/register preservation verified"
+    }
+  ],
+  "audio_output_performed": false
+}

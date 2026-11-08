@@ -1,0 +1,1609 @@
+{
+  "target": "/vendor/etc/audio_policy_configuration.xml",
+  "source_sha256": "8dd45a5395c6d1ecc8321cefaf82ed3681897ff6989a3718d8fde98cfc428de4",
+  "sha256": "511a3f90180838700eab58d5778f9e8306c79fa9e39284cffb6ad0df54b35451",
+  "size": 12721,
+  "encoding": "after=zlib+base64; before=hex",
+  "ranges": [
+    {
+      "offset": 2830,
+      "before": "6d6978506f7274206e616d653d227072696d617279206f75747075742220726f6c653d22736f7572",
+      "after": "eNpT1NVV8MvP0y0pzctLzUlNUUjOzy0oSi0uBjIdS1My80OKEpOzrRUAFnsOCg=="
+    },
+    {
+      "offset": 2871,
+      "before": "652220666c6167733d22415544494f5f4f55545055545f464c41475f5052494d415259223e0a20202020",
+      "after": "eNpLLEhMyszJLMlMLVYoLE0tykxNUUgrys9VcHXxdFFIqlTwcPTRU9DVteMCAEpDDYE="
+    },
+    {
+      "offset": 2930,
+      "before": "70726f66696c65",
+      "after": "eNrLzawIyC8qAQALtQL0"
+    },
+    {
+      "offset": 2944,
+      "before": "2220666f726d61743d22415544494f5f464f524d41545f50434d5f31365f424954220a20202020202020202020202020202020202020202020202020",
+      "after": "eNpLySxKTS5RKEosV1Ioys9JtVUqzi8tSk5VUkjLSUwvtlVyDHXx9I/3Dw0JCA2Jd/NxdI938QxydQ5RsuMCAHKuEzc="
+    },
+    {
+      "offset": 3008,
+      "before": "73616d706c696e6752617465733d2234383030302220636861",
+      "after": "eNpTUEAFNgVF+WmZOakKADQ9BU4="
+    },
+    {
+      "offset": 3034,
+      "before": "6e656c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f53544552454f222f3e0a",
+      "after": "eNpLzE21VVLSt+NSQAM2+rmZFQH5RSUgKQCVfAgS"
+    },
+    {
+      "offset": 3086,
+      "before": "20203c2f6d6978506f72743e0a202020202020202020",
+      "after": "eNqzyc2sCMgvKlHIS8xNtVUqKMrMTSyqBABd6whU"
+    },
+    {
+      "offset": 3109,
+      "before": "2020202020203c6d6978506f7274206e616d653d",
+      "after": "eNrLLy0pKC1RUijKz0m1VSrOLy1KTgUAUIkHlg=="
+    },
+    {
+      "offset": 3130,
+      "before": "6d75",
+      "after": "eNpTSAMAAKgAhw=="
+    },
+    {
+      "offset": 3133,
+      "before": "74696368616e6e656c206f75747075742220726f6c653d22736f75726365",
+      "after": "eNpLTC+2VXIMdfH0j/cPDQkIDYl383F0jw8I8vR1DIoEAJITCVk="
+    },
+    {
+      "offset": 3164,
+      "before": "20666c6167733d22415544494f5f4f55545055545f464c41475f4449524543547c415544494f5f4f55545055545f464c41475f48575f41565f53594e43223e0a2020202020202020",
+      "after": "eNqz41LAAmwKivLTMnNSFfISc1NtlZQU0vKLchNLbJUcQ108/ePd/IN8HUPiA5x94w3N4p08Q5S4AFMhEkk="
+    },
+    {
+      "offset": 3248,
+      "before": "3c70726f66696c65",
+      "after": "eNpTUIAAAASIAQE="
+    },
+    {
+      "offset": 3257,
+      "before": "6e616d653d22222f3e0a202020202020202020202020202020203c2f6d6978506f72743e0a202020202020202020202020202020203c6d6978506f7274206e616d653d227072696d617279",
+      "after": "eNpTUICA4sTcgpzMvPSgxJLUYlslEwsDAwMlheSMxLy81BzfxOJsoKBjqIunf7yzh6Ofn6tPvH9oSHxwiGuQq7+Svh0X0AgAPGIVeg=="
+    },
+    {
+      "offset": 3333,
+      "before": "696e70757422",
+      "after": "eNpTUAABAAKmAME="
+    },
+    {
+      "offset": 3340,
+      "before": "726f6c653d2273696e6b223e0a202020",
+      "after": "eNpTUAACG/3czIqA/KISOy4AH1QERw=="
+    },
+    {
+      "offset": 3372,
+      "before": "203c70726f66696c65206e616d653d222220666f726d",
+      "after": "eNqzyc2sCMgvKlHIS8xNtVXKLc0pyUzOAABd/AhG"
+    },
+    {
+      "offset": 3395,
+      "before": "743d22415544494f5f464f524d41545f50434d5f31365f424954220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d22383030302c31313032352c31323030302c31363030302c32323035302c32343030302c33323030302c34343130302c3438303030",
+      "after": "eNrLy0vNUcgvLSkoLVFSKMrPSbVVKs4vLUpOVVJIy0lML7ZVcgx18fSP9w8NCQgNiXfzcXSPd/EMcnUOqcGU8AiPdwyLD470c1ay41LAAmwKivLTMnNSFfISc1NtAbJwJMI="
+    },
+    {
+      "offset": 3520,
+      "before": "0a202020",
+      "after": "eNpT0rfjAgABnwCa"
+    },
+    {
+      "offset": 3540,
+      "before": "202020202020202020206368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f494e5f4d4f4e4f2c415544494f5f4348414e4e454c5f494e5f53544552454f222f3e0a",
+      "after": "eNqz0c/NrAjILyqx41JAAzZQGYW8xNxUW6WCoszcxKJKhcy8gtISJYWi/BygYHFmXrYSWCsA74UVHA=="
+    },
+    {
+      "offset": 3629,
+      "before": "3c2f6d6978506f72743e0a202020202020",
+      "after": "eNpTsCkoyk/LzElVyEvMTbVVUgIANIoFkA=="
+    },
+    {
+      "offset": 3647,
+      "before": "2020202020202020203c6d6978506f7274206e616d653d2274756e6e656c2072617722",
+      "after": "eNpLyy/KTSyxVXIMdfH0j3fzD/J1DIkPcPaNNzSLd/IMUeJSUAAAzFMKMg=="
+    },
+    {
+      "offset": 3683,
+      "before": "726f6c653d22736f7572636522",
+      "after": "eNpTUEACAAttAaE="
+    },
+    {
+      "offset": 3697,
+      "before": "666c6167733d22415544494f5f4f55545055545f464c41475f48575f41565f53594e437c415544494f5f4f55545055545f464c41475f444952454354223e0a202020202020202020202020202020202020",
+      "after": "eNpTUECA4sTcgpzMvPSgxJLUYlslCwMDAx1DQwMjUx1DIzDbDEQaGRmYAkkTENsYLG5iYggiQeqVuADxthFK"
+    },
+    {
+      "offset": 3780,
+      "before": "3c70726f66696c65",
+      "after": "eNpTUIAAAASIAQE="
+    },
+    {
+      "offset": 3789,
+      "before": "6e616d653d22616333",
+      "after": "eNpTUIACAAWpASE="
+    },
+    {
+      "offset": 3799,
+      "before": "72617722",
+      "after": "eNpTUFBQAAABRACB"
+    },
+    {
+      "offset": 3804,
+      "before": "666f726d61743d22415544494f5f464f524d41545f414333220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d22383030302c31313032352c31363030302c32323035302c32343030302c33323030302c34343130302c3438303030220a202020202020202020202020",
+      "after": "eNpTUFBIzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9/SL9/X389fBEA0OcQ1y9VfSt+NSQAM2+rmZFQH5RSVYpKAyCnmJuam2SiWlIHsBNYQjMQ=="
+    },
+    {
+      "offset": 3935,
+      "before": "20202020",
+      "after": "eNorSixXAgAD/wFt"
+    },
+    {
+      "offset": 3940,
+      "before": "20202020202020202020206368616e6e656c4d61736b733d22415544494f5f4348414e4e454c",
+      "after": "eNorys9JtVUqzi8tSk5VUkjLSUwvtlVyDHXx9I/3Dw0JCA2Jd/NxdAcAAEMMjA=="
+    },
+    {
+      "offset": 3979,
+      "before": "4f55545f53544552454f2c",
+      "after": "eNrzCI93DIsPjvRzrgEAFWsDrg=="
+    },
+    {
+      "offset": 3996,
+      "before": "4348414e4e454c5f4f5554",
+      "after": "eNrzDw0JCA2Jd/NxdAcAFSEDaw=="
+    },
+    {
+      "offset": 4008,
+      "before": "35504f494e",
+      "after": "eNpz8QxydQYABEABaA=="
+    },
+    {
+      "offset": 4014,
+      "before": "312c415544494f5f4348414e4e454c5f4f55545f37504f494e5431222f3e0a",
+      "after": "eNpTsuNSwAJsCory0zJzUgFIugYY"
+    },
+    {
+      "offset": 4046,
+      "before": "202020202020202020",
+      "after": "eNrLS8xNtVVKTDYGABAdAvg="
+    },
+    {
+      "offset": 4056,
+      "before": "20202020",
+      "after": "eNorSixXAgAD/wFt"
+    },
+    {
+      "offset": 4061,
+      "before": "202020203c70726f66696c65206e616d653d22656163332072617722",
+      "after": "eNpLyy/KTSyxVXIMdfH0j3fzD/J1DIl3dDZW4lJQAACFFQgF"
+    },
+    {
+      "offset": 4090,
+      "before": "666f726d61743d22415544494f5f464f524d41545f455f414333220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d2238",
+      "after": "eNpTUMAFihNzC3Iy89KDEktSi22VLAwMDHQMDQ2MTHUMzUBsIyMDUyBpAmIbGxkAABH6DxI="
+    },
+    {
+      "offset": 4165,
+      "before": "302c31",
+      "after": "eNrTMTEBAAEjAJU="
+    },
+    {
+      "offset": 4170,
+      "before": "32352c3136",
+      "after": "eNoz0DGxMAAAAuEA+Q=="
+    },
+    {
+      "offset": 4177,
+      "before": "302c32323035302c32343030302c33323030302c34343130302c34383030302c3132383030302c3137363430302c313932303030220a20202020202020202020202020202020202020202020202020202020206368616e6e656c4d61736b733d22415544494f5f434841",
+      "after": "eNpT4lLAB5IzEvPyUnN8E4uzi22VHENdPP3jnT0c/fxcfeL9Q0Pig0Ncg1z9dTAlTAP8Pf1CDJFkAPSWGwk="
+    },
+    {
+      "offset": 4284,
+      "before": "4e454c5f4f55545f53544552454f2c415544494f5f4348414e4e454c5f4f55545f35504f494e54312c415544494f5f4348414e4e454c5f4f55545f37504f494e5431222f3e0a20202020202020202020202020202020202020203c70726f66696c65",
+      "after": "eNpz9Yn3Dw2JNw/w9/QLMVTSt+NSwAJsCory0zJzUhXyEnNTbZVSE5ONFYoSy5UU0vKLchNLbJUcQ108/ePd/IN8HUPiXeMdnY2VYAYBAMJ7GPA="
+    },
+    {
+      "offset": 4383,
+      "before": "6e616d653d22647473",
+      "after": "eNpTUIACAAWpASE="
+    },
+    {
+      "offset": 4393,
+      "before": "72617722",
+      "after": "eNpTUFBQAAABRACB"
+    },
+    {
+      "offset": 4398,
+      "before": "666f726d61743d22415544494f5f464f524d41545f445453220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d22",
+      "after": "eNpTUACB4sTcgpzMvPSgxJLUYlslCwMDAx1DQwMjUx1DMxDbyMjAFEiagNjGRiDSxMQQREJUGgEAZfAPzg=="
+    },
+    {
+      "offset": 4474,
+      "before": "313032352c31363030",
+      "after": "eNozNzMxMNAxtDQCAAkLAco="
+    },
+    {
+      "offset": 4484,
+      "before": "2c32323035302c32343030302c33323030302c34343130302c3438303030220a",
+      "after": "eNozMFDiUsADAEPOBA0="
+    },
+    {
+      "offset": 4517,
+      "before": "202020202020202020202020202020202020202020202020202020206368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f53544552454f2c415544494f5f4348414e4e454c5f4f55545f35504f494e54312c415544494f5f4348414e4e454c5f4f55545f37504f494e5431222f3e0a",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9w8NiQ8OcQ1y9dfBlDAN8Pf0CzHEImMOkVHSt+NSwAJsCory0zJzUgHk5CIK"
+    },
+    {
+      "offset": 4640,
+      "before": "202020202020202020",
+      "after": "eNrLS8xNtVVKKSkGABCIA0w="
+    },
+    {
+      "offset": 4650,
+      "before": "20202020",
+      "after": "eNorSixXAgAD/wFt"
+    },
+    {
+      "offset": 4655,
+      "before": "202020203c70726f66696c65206e616d653d226965632072617722",
+      "after": "eNpLyy/KTSyxVXIMdfH0j3fzD/J1DIl3CQlW4lIAAH33CBk="
+    },
+    {
+      "offset": 4683,
+      "before": "666f726d61743d22415544494f5f464f524d41545f4945433631393337220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d22383030302c31313032352c31363030302c32323035302c32343030302c33323030302c34343130302c34383030302c3132383030302c3137363430302c313932303030220a20202020202020202020202020202020202020202020202020202020206368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f53544552454f2c415544494f5f4348414e4e454c5f4f55545f35504f494e54312c415544494f5f4348414e4e454c5f4f55545f37504f494e5431222f3e0a202020202020202020202020202020203c2f6d6978506f72743e0a",
+      "after": "eNpTUMAJihNzC3Iy89KDEktSi22VLAwMDHQMDQ2MTHUMzUBsIyMDUyBpAmIbG4FIExNDEAlSqcSlgA8kZyTm5aXm+CYWZwONdgx18fSPd/Zw9PNz9Yn3Dw2JDw5xDXL118GUMA3w9/QLMcQiYw6RUdK3w2q1TUFRflpmTqpCXmJuqq1SZmqyQlFiuZJCWn5RbmIJzA1u/kG+jiHxnq7OZoaWxuYwXwAA6ONGWQ=="
+    },
+    {
+      "offset": 4993,
+      "before": "3c6d6978506f7274206e616d653d2274756e6e656c2070636d2220726f6c653d22736f757263652220666c6167733d22415544494f5f4f55545055545f464c41475f48575f41565f53594e437c415544494f5f4f55545055545f464c41475f444952454354223e0a",
+      "after": "eNpTUACD4sTcgpzMvPSgxJLUYlslCwMDAx1DQwMjUx1DMxDbyMjAFEiagNjGRiDSxMQQREJUGkEoczMTEGUJUqDEpYAMAOA7FTg="
+    },
+    {
+      "offset": 5113,
+      "before": "202020203c70726f66696c65206e616d653d222220666f726d61743d22415544494f5f464f524d",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9w8NiQ8OcQ1y9dcBAA2dDLY="
+    },
+    {
+      "offset": 5153,
+      "before": "545f50434d5f31365f424954220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d2233323030302c34343130302c3438303030220a20202020",
+      "after": "eNoLdfH0j3f2cPTzc/WJ9w8NiTcN8Pf0CzHUcQxFlzGHyCjp23EpoAEb/dzMioD8ohI7LgCVThUN"
+    },
+    {
+      "offset": 5250,
+      "before": "2020202020202020",
+      "after": "eNqzyc2sCMgvKgEADZYDMA=="
+    },
+    {
+      "offset": 5259,
+      "before": "6368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f53544552454f",
+      "after": "eNrLS8xNtVUqKc3LS81RKEjOVVIoys8BihTnlxYlpyoppOUkphfbAgAItw1n"
+    },
+    {
+      "offset": 5298,
+      "before": "2f3e0a202020202020202020202020202020203c2f6d6978506f72743e0a2020202020202020202020200a3c6d6978506f7274206e616d653d2274756e6e656c",
+      "after": "eNpzDHXx9I/3Dw0JCA2Jd/NxdI/3CI93DIsPjvRzrnHEkHTxDHJ1DlGy41KAAgCCihIH"
+    },
+    {
+      "offset": 5363,
+      "before": "6132647022",
+      "after": "eNpTUAACAAHlAKE="
+    },
+    {
+      "offset": 5369,
+      "before": "726f6c653d22736f7572636522",
+      "after": "eNpTUAACm4Ki/LTMnFQAFMQDzg=="
+    },
+    {
+      "offset": 5383,
+      "before": "666c6167733d",
+      "after": "eNrLS8xNtVUCAAf+AgE="
+    },
+    {
+      "offset": 5390,
+      "before": "415544494f5f4f555450",
+      "after": "eNpTSMsvyk0ssVVyBAAS9QNK"
+    },
+    {
+      "offset": 5401,
+      "before": "545f464c41475f4449524543547c415544494f5f4f55545055545f464c41475f48575f41565f53594e43223e0a",
+      "after": "eNpz8fSPd/MP8nUMiQ9w9o03NIt38gxR4lLACgAAMQk0"
+    },
+    {
+      "offset": 5453,
+      "before": "202020202020202020202020203c70726f66696c65206e616d653d22222f3e0a2020",
+      "after": "eNorTswtyMnMSw9KLEkttlUyNjIwMNAxMTEEkRZAthIXAMH0CSg="
+    },
+    {
+      "offset": 5501,
+      "before": "3c2f6d6978506f72743e0a",
+      "after": "eNpTUIADAAhLAWE="
+    },
+    {
+      "offset": 5516,
+      "before": "2020202020202020202020203c2f6d6978506f7274733e0a2020202020202020202020203c646576696365506f7274733e0a",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9w8NiQ8OcQ1y9VfSt+NSgAIAokIOIw=="
+    },
+    {
+      "offset": 5574,
+      "before": "20202020202020203c212d2d",
+      "after": "eNqz0c/NrAjILyqx41IAABpWA8c="
+    },
+    {
+      "offset": 5587,
+      "before": "4f7574707574",
+      "after": "eNpTUAABAAKmAME="
+    },
+    {
+      "offset": 5594,
+      "before": "64657669636573206465636c6172",
+      "after": "eNpTUFDgssnNrAjILypRyAMAGfYEKA=="
+    },
+    {
+      "offset": 5609,
+      "before": "74696f6e2c20692e",
+      "after": "eNrLTbVVKinNywMADMQC9w=="
+    },
+    {
+      "offset": 5618,
+      "before": "2e",
+      "after": "eNrLAQAAbQBt"
+    },
+    {
+      "offset": 5620,
+      "before": "53696e6b2044455649434520504f5254202d2d3e0a202020202020202020202020202020203c646576696365506f7274207461674e616d653d22537065616b65722220726f6c653d2273696e6b2220747970653d22415544494f5f4445564943455f4f55545f535045414b4552223e0a20202020202020202020",
+      "after": "eNpLNEopUFIoys9JtVUqzi8tSk5VUkjLSUwvtlVyDHXx9I/3Dw0JCA2Jd/NxdI938QxydQ6pwZTwCI93DIsPjvRzVrLjUsACbAqK8tMyc1IV8hJzgTYp6dtxAQDo7SJm"
+    },
+    {
+      "offset": 5752,
+      "before": "3c6761696e733e0a202020202020202020",
+      "after": "eNpTUAABG/3czIqA/KISOy4AIXUEZw=="
+    },
+    {
+      "offset": 5784,
+      "before": "3c6761696e206e616d653d226761696e5f3122",
+      "after": "eNpTsNHPzawIyC8qKbbjUgADADjkBPo="
+    },
+    {
+      "offset": 5804,
+      "before": "6d6f64653d22415544494f5f4741494e5f4d4f44455f4a4f494e54220a",
+      "after": "eNpTUAACm5TUsszk1ID8opJiOy4FOAAAce8G7Q=="
+    },
+    {
+      "offset": 5839,
+      "before": "20202020",
+      "after": "eNqzUdTVBQAB3gC4"
+    },
+    {
+      "offset": 5844,
+      "before": "202020202020",
+      "after": "eNrzLy0pKC0BAAinApI="
+    },
+    {
+      "offset": 5851,
+      "before": "20202020202020",
+      "after": "eNpLSS3LTE4tBgALeQLk"
+    },
+    {
+      "offset": 5859,
+      "before": "202020206d696e56616c75654d423d2230220a202020",
+      "after": "eNpLSU3OSSxKLMnMz9NRyNRL1VMIzszLBgBdCgey"
+    },
+    {
+      "offset": 5882,
+      "before": "202020202020",
+      "after": "eNpzcQ3zdHYFAAX1AbE="
+    },
+    {
+      "offset": 5889,
+      "before": "20202020",
+      "after": "eNoL8A8KAQADKQFG"
+    },
+    {
+      "offset": 5894,
+      "before": "20202020",
+      "after": "eNrT1bXjAgABxQCj"
+    },
+    {
+      "offset": 5908,
+      "before": "6d617856616c75654d423d22313030220a",
+      "after": "eNpTUAABm5TUsszk1ID8ohIAI7kFEg=="
+    },
+    {
+      "offset": 5926,
+      "before": "2020202020202020202020202020202020",
+      "after": "eNorSUz3S8xNtVUKLkhNzE4tUgIAN+IGCg=="
+    },
+    {
+      "offset": 5944,
+      "before": "202020202020202020202064656661756c7456616c75654d423d223330220a2020202020202020202020202020",
+      "after": "eNorys9JtVUqzszLVlIoqSwAsh1DXTz9411cwzydXeP9Q0PigwNcHb1dg5TsuABVMw3W"
+    },
+    {
+      "offset": 6005,
+      "before": "7374657056616c75654d423d2231222f3e0a",
+      "after": "eNpTUFBQsElPzMwrtuNSAAMAJxED1w=="
+    },
+    {
+      "offset": 6041,
+      "before": "20203c2f6761696e733e0a2020202020202020",
+      "after": "eNqzSU/MzFPIS8xNtVUCMeMNlQBBbQZN"
+    },
+    {
+      "offset": 6061,
+      "before": "202020202020203c2f646576696365506f72743e0a2020202020202020",
+      "after": "eNrLzU9JtVVyDHXx9I93d/T0i/f1d3GN9/L39AtR4gIAiIcIiA=="
+    },
+    {
+      "offset": 6098,
+      "before": "3c646576696365506f7274",
+      "after": "eNpTUIADAAhLAWE="
+    },
+    {
+      "offset": 6110,
+      "before": "7461674e616d653d2248444d49204f75742220747970653d22415544494f5f4445564943455f4f55545f4155585f4449474954414c22",
+      "after": "eNpTUICB3My8sMSc0lRfJ1slAyUuBXwAACPpCWw="
+    },
+    {
+      "offset": 6165,
+      "before": "726f6c653d2273696e6b223e0a20202020",
+      "after": "eNrLTawIS8wpTfV1slUyNDBQ4gIANd8E7w=="
+    },
+    {
+      "offset": 6194,
+      "before": "3c2f646576696365506f72743e0a",
+      "after": "eNpTUEAGAA0uAcE="
+    },
+    {
+      "offset": 6212,
+      "before": "2020202020202020202020203c646576696365506f7274",
+      "after": "eNpLSU1LLM0pCUvMKU31dbJVMjZQ4lJQUAAAYoEGwA=="
+    },
+    {
+      "offset": 6236,
+      "before": "7461674e616d653d2254756e657222",
+      "after": "eNpTUEABAA8PAeE="
+    },
+    {
+      "offset": 6252,
+      "before": "726f6c653d22736f757263652220747970653d22415544494f5f4445564943455f494e5f54565f54554e4552223e0a",
+      "after": "eNpTUICB4pLUgrDEnNJUXydbJUMlfTsuBUwAAPKSCRI="
+    },
+    {
+      "offset": 6300,
+      "before": "202020202020202020",
+      "after": "eNqz0U9PzMwrtuMCAA5YAsY="
+    },
+    {
+      "offset": 6319,
+      "before": "3c6761696e733e0a202020202020202020202020",
+      "after": "eNpTUAABG/2U1LLM5NSA/KISOy4AMcMFiQ=="
+    },
+    {
+      "offset": 6351,
+      "before": "3c6761696e206e616d653d226761696e5f3122206d6f64653d2241554449",
+      "after": "eNpTUFBQsElJLctMTg3ILypRKElM90vMTbVV8nDx9VQAAI6HCVA="
+    },
+    {
+      "offset": 6382,
+      "before": "5f4741494e5f4d4f44455f4a4f",
+      "after": "eNorLVFSKKksSLVVcgx1AQAe2AQn"
+    },
+    {
+      "offset": 6396,
+      "before": "4e54220a202020202020202020202020202020202020202020",
+      "after": "eNrzj3dxDfN0do33Dw2JdwyNiHfxdPcMcfRRAgBkeQeC"
+    },
+    {
+      "offset": 6422,
+      "before": "20202020202020206d696e56616c75654d423d2230220a",
+      "after": "eNorys9JtVUqzszLVrLjUoADAFH5BXE="
+    },
+    {
+      "offset": 6451,
+      "before": "2020202020202020202020202020",
+      "after": "eNqz0U9JLctMTg3ILyqx4wIAJJ0EyQ=="
+    },
+    {
+      "offset": 6475,
+      "before": "6d617856616c75654d423d22313030220a",
+      "after": "eNpTUAABm5TUsszk1ID8ohIAI7kFEg=="
+    },
+    {
+      "offset": 6493,
+      "before": "202020202020202020202020202020",
+      "after": "eNorSUz3S8xNtVUKKc1LLVICACwKBU0="
+    },
+    {
+      "offset": 6509,
+      "before": "2020202020202020202020202064656661756c7456616c75654d423d223330220a2020202020202020202020202020",
+      "after": "eNorys9JtVUqzi8tSk5VUiipLADyHENdPP3jXVzDPJ1d4z394kPC4kNC/VyDlOy4AH1mDt0="
+    },
+    {
+      "offset": 6572,
+      "before": "7374657056616c75654d423d2231222f3e0a",
+      "after": "eNpTUFBQsElPzMwrtuNSAAMAJxED1w=="
+    },
+    {
+      "offset": 6608,
+      "before": "20203c2f6761696e733e0a2020202020202020",
+      "after": "eNqzSU/MzFPIS8xNtVUCMeMNlQBBbQZN"
+    },
+    {
+      "offset": 6628,
+      "before": "202020202020203c2f646576696365506f72743e0a2020202020202020",
+      "after": "eNrLzU9JtVVyDHXx9I93d/T0i/f1d3GN9/L39AtR4gIAiIcIiA=="
+    },
+    {
+      "offset": 6665,
+      "before": "3c646576696365506f7274",
+      "after": "eNpTUIADAAhLAWE="
+    },
+    {
+      "offset": 6677,
+      "before": "7461674e616d653d22576972656420486561647365742220747970653d22415544494f5f4445564943455f4f55545f57495245445f484541445345542220726f6c653d2273696e6b223e0a",
+      "after": "eNpTUICB3My8sMSc0lRfJ1slAyUuBbwgN7ECrtjQAKIcADHMDto="
+    },
+    {
+      "offset": 6772,
+      "before": "3c70726f66696c65206e",
+      "after": "eNpTUACDlNQ0AAiGAhA="
+    },
+    {
+      "offset": 6783,
+      "before": "6d653d222220666f726d61743d22415544494f5f464f524d41545f50434d5f31365f424954220a",
+      "after": "eNorzSkJS8wpTfV1slUyNlDiUsAOAMLhB7A="
+    },
+    {
+      "offset": 6829,
+      "before": "202020202020202020202020202020202020",
+      "after": "eNorLkktCEvMKU31dbJVMlTSt+MCAD4yBXI="
+    },
+    {
+      "offset": 6851,
+      "before": "73616d706c696e6752617465733d22343830303022206368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f53544552454f222f3e0a",
+      "after": "eNpTUEAFNvrpiZl5xXZcChgSKallmcmpAflFJUiyAH/YDK4="
+    },
+    {
+      "offset": 6922,
+      "before": "2020202020202020203c2f646576696365506f72743e0a202020",
+      "after": "eNqzSUkty0xODcgvKlEoSUz3S8xNtVUKzyxKTQEAgg0JiQ=="
+    },
+    {
+      "offset": 6949,
+      "before": "2020202020202020",
+      "after": "eNrzSE1MKU4tUQIADUoC4Q=="
+    },
+    {
+      "offset": 6958,
+      "before": "2020203c646576696365506f7274207461674e616d653d225769726564204865616470686f6e65732220747970653d22415544494f5f4445564943455f4f55545f57495245445f4845414450484f4e452220726f6c653d2273696e6b223e0a20202020202020202020202020202020202020203c70726f66696c65",
+      "after": "eNorqSxItVVyDHXx9I93cQ3zdHaN9w8NiQ/3DHJ1ifdwdXQJdg1RUijKzwGqKs7My1ay41LAAmwKivLTMnNSFfISc4EqlRTS8otyE0tgJrv5B/k6hsQHOPvGG5rFO3mGKAFNAQBrHCHj"
+    },
+    {
+      "offset": 7082,
+      "before": "6e616d653d2222",
+      "after": "eNpTUAADAAOHAOE="
+    },
+    {
+      "offset": 7090,
+      "before": "666f726d61743d22415544494f5f464f524d41545f50434d5f31365f424954220a202020202020",
+      "after": "eNpTUEAHxYm5BTmZeelBiSWpxbZKJhYGBgZKAJw4CRg="
+    },
+    {
+      "offset": 7130,
+      "before": "2020202020202020202020202020202020202020202073616d706c696e6752617465733d22343830303022",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9w8NiQ8OcQ1y9VfSt+NSAABB7Q1D"
+    },
+    {
+      "offset": 7174,
+      "before": "6368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f53544552454f222f3e0a",
+      "after": "eNpTUEAGNvopqWWZyakB+UUldlwoUgoAsukISQ=="
+    },
+    {
+      "offset": 7218,
+      "before": "2020202020202020202020",
+      "after": "eNqzSUkty0xODcgvKgEAGNMEUg=="
+    },
+    {
+      "offset": 7230,
+      "before": "20203c2f646576696365506f72743e0a20202020202020202020",
+      "after": "eNorSUz3S8xNtVUKzyxKTVHwSE1MKcjIz0stVgIAfmcJWQ=="
+    },
+    {
+      "offset": 7257,
+      "before": "20202020203c646576696365506f7274207461674e616d653d2242542053434f2220747970653d22415544494f5f4445564943455f4f55545f424c5545544f4f54485f53434f22",
+      "after": "eNorqSxItVVyDHXx9I93cQ3zdHaN9w8NiQ/3DHJ1ifdwdXQJ8PD3c1VSKMrPAaorzszLVrLjUsAAAPpaEnE="
+    },
+    {
+      "offset": 7329,
+      "before": "726f6c653d2273696e6b223e0a20202020",
+      "after": "eNpTsCkoyk/LzElVyEvMTbVVUgIANIoFkA=="
+    },
+    {
+      "offset": 7347,
+      "before": "2020202020202020202020202020203c70726f66696c65206e616d653d222220666f726d61743d22415544494f5f464f524d41545f50434d5f31365f424954220a202020202020202020202020202020202020",
+      "after": "eNpLyy/KTSyxVXIMdfH0j3fzD/J1DIkPcPaNNzSLd/IMUeJSwAeKE3MLcjLz0oMSS1KLbZVMLAwMDJQAg3EUaQ=="
+    },
+    {
+      "offset": 7431,
+      "before": "2020202020202020202073616d706c696e6752617465733d22383030302c313630303022206368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f4d4f4e4f222f3e0a",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9w8NiQ8OcQ1y9VfSt+NSQAM2+impZZnJqQH5RSVQWQB16BSL"
+    },
+    {
+      "offset": 7519,
+      "before": "20202020203c2f646576696365506f72743e0a20202020",
+      "after": "eNqzSUkty0xODcgvKlEoSUz3S8xNtVVyCgEAZmAIJA=="
+    },
+    {
+      "offset": 7543,
+      "before": "20202020",
+      "after": "eNoLdvZXAgAC2QEI"
+    },
+    {
+      "offset": 7548,
+      "before": "2020202020203c646576696365506f7274207461674e616d653d2242542053434f20486561647365742220747970653d",
+      "after": "eNorqSxItVVyDHXx9I93cQ3zdHaN9w8NiXfyCXUN8fcP8YgPdvZXUijKzwGqKs7MywYAdUwPWw=="
+    },
+    {
+      "offset": 7597,
+      "before": "415544494f5f4445564943455f4f55545f424c5545544f4f54485f53434f5f484541445345542220726f6c653d2273696e6b223e0a20202020202020202020202020202020202020",
+      "after": "eNqz41LAAmwKivLTMnNSFfISc1NtlZQU0vKLchNLbJUcQ108/ePd/IN8HUPiA5x94w3N4p08Q5S4AFMhEkk="
+    },
+    {
+      "offset": 7670,
+      "before": "3c70726f66696c65",
+      "after": "eNpTUIAAAASIAQE="
+    },
+    {
+      "offset": 7679,
+      "before": "6e616d653d2222",
+      "after": "eNpTUAADAAOHAOE="
+    },
+    {
+      "offset": 7687,
+      "before": "666f726d61743d22415544494f5f464f524d41545f50434d5f31365f424954220a20202020",
+      "after": "eNpTUICD4sTcgpzMvPSgxJLUYlslCwMDAx1DMyCpBACowwkn"
+    },
+    {
+      "offset": 7725,
+      "before": "20202020202020202020202020202020202020202020202073616d706c696e6752617465733d22383030302c313630303022",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9w8Niff19/NX0rfjUoADAJ2tDco="
+    },
+    {
+      "offset": 7776,
+      "before": "6368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f4d4f4e4f222f3e0a202020202020",
+      "after": "eNpTUAACG/2U1LLM5NSA/KISOy4FNGCDkAQAASwLug=="
+    },
+    {
+      "offset": 7823,
+      "before": "2020202020202020203c2f646576696365506f72743e0a20",
+      "after": "eNorSUz3S8xNtVVyClEIdvZX8EhNTClOLVECAGI0B7g="
+    },
+    {
+      "offset": 7848,
+      "before": "20202020202020202020202020203c646576696365506f7274207461674e616d653d224254204132",
+      "after": "eNorqSxItVVyDHXx9I93cQ3zdHaN9w8NiXfyCXUN8fcP8YgPdvaP93B1BAAF9wyA"
+    },
+    {
+      "offset": 7889,
+      "before": "50204f75742220747970653d22415544494f5f4445564943455f4f55545f424c5545544f4f54485f413244502220726f6c653d2273696e6b223e0a20202020202020202020202020202020202020203c70726f66696c65206e616d653d2222",
+      "after": "eNoLdg1RUijKz0m1VSrOzMtWsuNSwAJsCory0zJzUhXyEnOBKpUU0vKLchNLbJUcQ108/ePd/IN8HUPiA5x94w3N4p08Q5RgpgAAknEYPw=="
+    },
+    {
+      "offset": 7985,
+      "before": "666f726d61743d22415544494f5f464f524d41545f50434d5f31365f424954220a2020202020202020202020202020",
+      "after": "eNpTUMACihNzC3Iy89KDEktSi22VLAwMDHQMzYCkEgDd7Qpn"
+    },
+    {
+      "offset": 8033,
+      "before": "202020202020202020202020202073616d706c696e6752617465733d223434313030220a20202020",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9w8Niff19/NX0rfjAgAZaQyK"
+    },
+    {
+      "offset": 8089,
+      "before": "2020202020202020206368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f53544552454f222f3e0a2020",
+      "after": "eNqz0U9JLctMTg3ILyqx41JAAzYISYWSxHS/xNxUWyWnEACElA7s"
+    },
+    {
+      "offset": 8143,
+      "before": "20202020",
+      "after": "eNpzNHIJAAACdgEI"
+    },
+    {
+      "offset": 8148,
+      "before": "20202020",
+      "after": "eNrzLy1RAgADqQFb"
+    },
+    {
+      "offset": 8153,
+      "before": "2020203c2f646576696365506f72743e0a202020202020202020202020202020203c646576696365506f7274207461674e616d653d224254",
+      "after": "eNorqSxItVVyDHXx9I93cQ3zdHaN9w8NiXfyCXUN8fcP8Yh3NHIJUFIoys8BKivOzMtWsuNSAAIA8jUQZw=="
+    },
+    {
+      "offset": 8210,
+      "before": "41324450",
+      "after": "eNpTUFBQAAABRACB"
+    },
+    {
+      "offset": 8215,
+      "before": "4865616470686f6e65732220747970653d22415544494f5f4445564943455f4f55545f424c5545544f4f54485f",
+      "after": "eNpTUIABm4Ki/LTMnFSFvMTcVFslJYW0/KLcxBJbJcdQF0//eDf/IF8ACrUMvQ=="
+    },
+    {
+      "offset": 8261,
+      "before": "3244",
+      "after": "eNoLiQcAAQkAtA=="
+    },
+    {
+      "offset": 8264,
+      "before": "5f4845414450484f4e455322",
+      "after": "eNpz9o03NIt38gxR4lIAABUaAuE="
+    },
+    {
+      "offset": 8277,
+      "before": "726f6c653d2273696e6b223e0a",
+      "after": "eNpTUEACAAttAaE="
+    },
+    {
+      "offset": 8304,
+      "before": "2020202020203c70726f66696c65206e616d653d",
+      "after": "eNorTswtyMnMSw9KLEkttlUyMTE0MAAAUKEGsw=="
+    },
+    {
+      "offset": 8325,
+      "before": "22",
+      "after": "eNrjAgAACwAL"
+    },
+    {
+      "offset": 8327,
+      "before": "666f726d61743d22415544494f5f464f524d41545f50434d5f31365f424954220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d223434313030220a",
+      "after": "eNpTUMANkjMS8/JSc3wTi7OLbZUcQ108/eOdPRz9/Fx94v1DQ+KDQ1yDXP2V9O24UPUBAPCfEmM="
+    },
+    {
+      "offset": 8413,
+      "before": "2020202020202020202020202020",
+      "after": "eNqz0U9JLctMTg3ILyqx4wIAJJ0EyQ=="
+    },
+    {
+      "offset": 8440,
+      "before": "6368616e6e",
+      "after": "eNpTUFCwSQEAAmEBAQ=="
+    },
+    {
+      "offset": 8446,
+      "before": "6c4d61736b733d22415544494f5f4348414e4e454c5f4f55545f53544552454f222f3e0a20",
+      "after": "eNory0xODcgvKlEoSUz3S8xNtVVyClFwNHIJUPBITUwpyMjPSy1WAgD0ugyH"
+    },
+    {
+      "offset": 8484,
+      "before": "20202020202020202020202020203c2f646576696365506f72743e0a202020202020202020202020202020203c646576696365506f7274207461674e616d653d224254",
+      "after": "eNorqSxItVVyDHXx9I93cQ3zdHaN9w8NiXfyCXUN8fcP8Yh3NHIJiPdwdXQJ8PD3cw1WUijKzwHqKM7My1ay41IAAgDBZhOl"
+    },
+    {
+      "offset": 8552,
+      "before": "41324450",
+      "after": "eNpTUFBQAAABRACB"
+    },
+    {
+      "offset": 8557,
+      "before": "537065616b657222",
+      "after": "eNpTUIAAAASIAQE="
+    },
+    {
+      "offset": 8566,
+      "before": "7479",
+      "after": "eNpTsAEAAH4AXQ=="
+    },
+    {
+      "offset": 8569,
+      "before": "653d22415544494f5f4445564943455f4f55545f424c5545544f4f54485f413244505f53",
+      "after": "eNoryk/LzElVyEvMTbVVUlJIyy/KTSyxVXIMdfH0j3fzD/J1DIkHAOMjC8U="
+    },
+    {
+      "offset": 8606,
+      "before": "45414b45522220726f6c653d2273696e6b223e0a",
+      "after": "eNpz9o03NIt38gxR4lKAAQAwogPh"
+    },
+    {
+      "offset": 8646,
+      "before": "3c70726f66",
+      "after": "eNorTswtyAEABlsCHg=="
+    },
+    {
+      "offset": 8652,
+      "before": "6c65206e616d65",
+      "after": "eNrLSw9KLEktBgALKgLV"
+    },
+    {
+      "offset": 8661,
+      "before": "2220666f726d61743d22415544494f5f464f524d41545f50434d5f31365f424954220a",
+      "after": "eNozMTE0MFDiUsADAFgmBKY="
+    },
+    {
+      "offset": 8697,
+      "before": "2020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d223434313030220a",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9w8NiQ8OcQ1y9VfSt+NSgAIAokIOIw=="
+    },
+    {
+      "offset": 8755,
+      "before": "2020202020202020202020202020",
+      "after": "eNqz0U9JLctMTg3ILyqx4wIAJJ0EyQ=="
+    },
+    {
+      "offset": 8776,
+      "before": "6368616e6e656c4d61736b733d22415544494f5f4348414e",
+      "after": "eNpTUIACm5TUsszk1ID8ohKFksR0AEOpBs4="
+    },
+    {
+      "offset": 8801,
+      "before": "454c5f4f55545f53544552454f222f3e0a20202020",
+      "after": "eNpLzE21VXIKUXA0cglQCC5ITcxOLVICAEQCBl0="
+    },
+    {
+      "offset": 8823,
+      "before": "20202020202020202020203c2f646576696365506f72743e0a0a202020202020202020202020202020203c646576696365506f7274207461674e616d653d224275696c742d496e",
+      "after": "eNorqSxItVVyDHXx9I93cQ3zdHaN9w8NiXfyCXUN8fcP8Yh3NHIJiA8OcHX0dg1SUijKzwEqL87My1ay41JAAAAORxOx"
+    },
+    {
+      "offset": 8895,
+      "before": "4d696322",
+      "after": "eNpTUFBQAAABRACB"
+    },
+    {
+      "offset": 8900,
+      "before": "747970653d22415544494f5f4445564943455f494e5f4255494c54494e5f4d",
+      "after": "eNpTUFCwKSjKT8vMSVXIS8xNtVVSUkjLL8pNLLFVcgx1AQCZVwmy"
+    },
+    {
+      "offset": 8932,
+      "before": "432220726f6c653d22736f75726365223e0a202020",
+      "after": "eNrzj3fzD/J1DIkPcPaNNzSLd/IMUeICAEYmBec="
+    },
+    {
+      "offset": 8970,
+      "before": "3c70726f66696c65",
+      "after": "eNpTUIAAAASIAQE="
+    },
+    {
+      "offset": 8979,
+      "before": "6e616d653d222220666f726d",
+      "after": "eNpTUFAoTswtyMnMSw8CABcEBA4="
+    },
+    {
+      "offset": 8993,
+      "before": "3d22415544494f5f464f524d41545f50434d5f31365f424954220a",
+      "after": "eNpLLbZVMjExNDBQ4lJAAwBIHARd"
+    },
+    {
+      "offset": 9033,
+      "before": "2020202020202020202020202020202073616d706c696e6752617465733d22383030302c31313032352c31323030302c31363030302c32323035302c32343030302c33323030302c34343130302c3438303030220a",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9w8NiQ8OcQ1y9VfSt+NSQAM2+impZZnJqQH5RSV2XCjSAB2xFXU="
+    },
+    {
+      "offset": 9122,
+      "before": "2020202020202020202020",
+      "after": "eNqzSUkty0xODcgvKgEAGNMEUg=="
+    },
+    {
+      "offset": 9134,
+      "before": "20202020202020202020202020636861",
+      "after": "eNorSUz3S8xNtVVyKs3MKdH1BAAxQQWT"
+    },
+    {
+      "offset": 9151,
+      "before": "6e656c4d61736b733d22415544494f5f4348414e4e454c5f494e5f4d4f4e4f2c415544494f5f",
+      "after": "eNpT8M1MVlIoqSxItVVyDHXx9I93cQ3zdHaN9/SLdwr19AkB0r6eAN4aC38="
+    },
+    {
+      "offset": 9190,
+      "before": "48414e4e454c5f494e5f53544552454f2c415544494f5f4348414e4e454c5f494e5f46524f4e545f4241434b222f3e0a2020202020",
+      "after": "eNpTUijKz0m1VSrOLy1KTlWy41LAAmwKivLTMnNSFfISc4FqlQBk0w0+"
+    },
+    {
+      "offset": 9244,
+      "before": "202020202020202020203c2f646576696365506f72743e0a202020202020202020",
+      "after": "eNpLyy/KTSyxVXIMdfH0j3fzD/J1DIkPcPaNNzSLd/IMUeICALgPCfI="
+    },
+    {
+      "offset": 9284,
+      "before": "3c646576696365506f7274",
+      "after": "eNpTUIADAAhLAWE="
+    },
+    {
+      "offset": 9296,
+      "before": "7461674e616d653d224275696c742d49",
+      "after": "eNpTUICB4sTcgpxMABdMA8c="
+    },
+    {
+      "offset": 9313,
+      "before": "2042",
+      "after": "eNpLDwIAASIAug=="
+    },
+    {
+      "offset": 9316,
+      "before": "636b204d69632220747970653d22415544494f5f4445564943455f494e5f4241434b5f4d49432220726f6c653d22736f75726365223e0a20202020",
+      "after": "eNorSS22VbIwMDDQMTQ0MDLVMTQCs81ApJGRgSmQNAGxjcHiJiaGIBKkXokLAHoxC7w="
+    },
+    {
+      "offset": 9391,
+      "before": "3c70726f66696c65",
+      "after": "eNpTUIAAAASIAQE="
+    },
+    {
+      "offset": 9400,
+      "before": "6e616d653d222220666f726d",
+      "after": "eNpTUFBQSM5IzMtLzfEFABO0A6c="
+    },
+    {
+      "offset": 9413,
+      "before": "743d22415544494f5f464f524d",
+      "after": "eNorzi62VXIMdfH0j3f2AAAd9AQN"
+    },
+    {
+      "offset": 9427,
+      "before": "545f50434d5f31365f424954220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d22383030302c31313032352c31323030302c31363030302c32323035302c32343030302c33323030302c34343130302c3438303030220a",
+      "after": "eNrz83P1iff0i/f19/PXcQx18fSPd/Zw9IOKBoe4BrliEXcL8vcLiXdydPZW0rfjUkADNvopqWWZyakB+UUl6LIA3N4cPg=="
+    },
+    {
+      "offset": 9541,
+      "before": "2020202020202020202020",
+      "after": "eNqzSUkty0xODcgvKgEAGNMEUg=="
+    },
+    {
+      "offset": 9553,
+      "before": "2020202020202020202020202020206368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f",
+      "after": "eNorSUz3S8xNtVVyKs3MKdH1zFNwSkzOVvDNTFZSKKksAEo4hrp4+se7uIYBADzyDd4="
+    },
+    {
+      "offset": 9597,
+      "before": "4e5f4d4f",
+      "after": "eNpzdo33BAAC5gEx"
+    },
+    {
+      "offset": 9602,
+      "before": "4f2c",
+      "after": "eNqLdwIAAQIAog=="
+    },
+    {
+      "offset": 9605,
+      "before": "5544494f5f",
+      "after": "eNpz9o739QQABIABhA=="
+    },
+    {
+      "offset": 9611,
+      "before": "48414e4e454c5f494e5f53544552454f2c415544494f5f4348414e4e454c5f494e5f46524f4e545f4241434b222f3e0a2020202020",
+      "after": "eNpTUijKz0m1VSrOLy1KTlWy41LAAmwKivLTMnNSFfISc4FqlQBk0w0+"
+    },
+    {
+      "offset": 9665,
+      "before": "202020202020202020203c2f646576696365506f72743e0a202020202020202020",
+      "after": "eNpLyy/KTSyxVXIMdfH0j3fzD/J1DIkPcPaNNzSLd/IMUeICALgPCfI="
+    },
+    {
+      "offset": 9705,
+      "before": "3c646576696365506f7274",
+      "after": "eNpTUIADAAhLAWE="
+    },
+    {
+      "offset": 9717,
+      "before": "7461674e616d653d2257697265642048656164736574204d69632220747970653d22415544494f5f4445564943455f494e5f57495245445f484541445345542220726f6c653d22736f75726365",
+      "after": "eNpTUICB4sTcgpzMvPSgxJLUYlslCwMDAx1DQwMjUx1DIzDbDEQaGRmYAkkTENsYLG5iYggiQeoBu4oQ3g=="
+    },
+    {
+      "offset": 9795,
+      "before": "3e0a",
+      "after": "eNrjUgAAADYAKw=="
+    },
+    {
+      "offset": 9817,
+      "before": "3c70726f66696c65206e",
+      "after": "eNpTUICA5AwAB7gBzA=="
+    },
+    {
+      "offset": 9828,
+      "before": "6d653d222220666f726d61743d22415544494f5f464f524d41545f50434d5f31365f424954220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d22383030302c31313032352c31323030302c31363030302c32323035302c32343030302c33323030302c34343130302c3438303030220a2020202020202020",
+      "after": "eNrLy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9/SL9/X389fBEA0OcQ1yxSLuFuTvFxLv5OjsraRvx6WABmz0U1LLMpNTA/KLSrDIIiQB9A4ndw=="
+    },
+    {
+      "offset": 9974,
+      "before": "2020202020202020202020202020",
+      "after": "eNorSUz3S8xNtVUKzyxKTQEAJpoFGA=="
+    },
+    {
+      "offset": 9989,
+      "before": "20202020206368616e6e656c4d61736b73",
+      "after": "eNrzSE1MKU4tUfDNTFZSKKksSAUANb0F/A=="
+    },
+    {
+      "offset": 10014,
+      "before": "4348414e4e",
+      "after": "eNpzcQ3zdAYABEQBbA=="
+    },
+    {
+      "offset": 10020,
+      "before": "4c5f494e5f4d4f4e4f2c415544494f5f4348414e4e454c5f494e5f53544552454f2c415544494f5f4348414e4e454c5f494e5f46524f4e545f4241434b222f3e0a2020202020",
+      "after": "eNqL9/SLD/cMcnWJ93B1dAl2DVFSKMrPSbVVKs4vLUpOVbLjUsACbAqK8tMyc1IV8hJzgWqVAKcUEms="
+    },
+    {
+      "offset": 10091,
+      "before": "202020202020202020203c2f646576696365506f72743e0a202020202020202020",
+      "after": "eNpLyy/KTSyxVXIMdfH0j3fzD/J1DIkPcPaNNzSLd/IMUeICALgPCfI="
+    },
+    {
+      "offset": 10131,
+      "before": "3c646576696365506f7274",
+      "after": "eNpTUIADAAhLAWE="
+    },
+    {
+      "offset": 10143,
+      "before": "7461674e616d653d2242542053434f204865616473",
+      "after": "eNpTUICB4sTcgpzMvPSgxBIAMB0Fww=="
+    },
+    {
+      "offset": 10165,
+      "before": "74204d69632220747970653d22415544494f5f4445564943455f494e5f424c5545544f4f54485f53434f5f484541445345542220726f6c653d22736f75726365223e0a",
+      "after": "eNortlWyMDAw0DE0NDAy1TE0ArPNQKSRkYEpkDQBsY3B4iYmhiASpF6JSwEOALxPDCM="
+    },
+    {
+      "offset": 10251,
+      "before": "203c70726f66696c65206e616d653d222220666f726d61743d22415544494f5f464f524d",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9/SL9/X389cBAOdmC7w="
+    },
+    {
+      "offset": 10288,
+      "before": "545f50434d5f31365f424954220a202020202020202020202020202020202020202020202020202020202073616d706c696e6752617465733d22383030302c313630303022",
+      "after": "eNoLdfH0j3f2cPTzc/WJ9/SLDw5xDXL113EMRRN3C/L3C4l3cnT2VtK341JABQCzbhFu"
+    },
+    {
+      "offset": 10358,
+      "before": "6368616e6e656c4d61736b733d22415544494f5f4348414e4e454c5f494e5f4d4f4e4f222f3e0a2020",
+      "after": "eNqz0U9JLctMTg3ILyqx41JAAzYISQDlmAsa"
+    },
+    {
+      "offset": 10400,
+      "before": "2020202020202020202020",
+      "after": "eNorSUz3S8xNtVVyCgEAGEADsw=="
+    },
+    {
+      "offset": 10412,
+      "before": "203c2f646576696365506f72743e0a20",
+      "after": "eNoLdvZX8EhNTClOLVHwzUxWAgArLgUf"
+    },
+    {
+      "offset": 10429,
+      "before": "202020202020202020203c2f646576696365506f7274733e0a2020202020202020202020203c212d2d20726f757465206465636c61726174696f6e2c",
+      "after": "eNorqSxItVVyDHXx9I93cQ3zdHaN9/SLd/IJdQ3x9w/xiA929o/3cHV0CXYNUVIoys8BKi7OLy1KTlWy4wIAPscSnQ=="
+    },
+    {
+      "offset": 10490,
+      "before": "692e652e",
+      "after": "eNpTUFBQAAABRACB"
+    },
+    {
+      "offset": 10495,
+      "before": "6c697374",
+      "after": "eNpTUFBQAAABRACB"
+    },
+    {
+      "offset": 10500,
+      "before": "616c6c",
+      "after": "eNpTUFAAAADDAGE="
+    },
+    {
+      "offset": 10504,
+      "before": "617661696c61626c6520736f757263657320666f72",
+      "after": "eNpTUAACm4Ki/LTMnFSFvMTcVFslJQA+TgYQ"
+    },
+    {
+      "offset": 10526,
+      "before": "6120676976656e2073696e6b202d2d3e0a2020202020202020202020203c726f757465733e0a",
+      "after": "eNpLyy/KTSyxVXIMdfH0j3fzD/J1DIkPcPaNNzSLd/IMUeJSAAEA66kKkg=="
+    },
+    {
+      "offset": 10576,
+      "before": "3c726f757465",
+      "after": "eNpTUAABAAKmAME="
+    },
+    {
+      "offset": 10583,
+      "before": "747970653d226d6978222073696e6b3d2248444d49204f7574220a20202020",
+      "after": "eNpTUACC4sTcgpzMvPSgxJLUYlslCwMDAx1DMyCpBACO3Qhn"
+    },
+    {
+      "offset": 10615,
+      "before": "202020202020202020202020202020202020736f75726365733d227072696d617279206f75747075742c74756e6e656c",
+      "after": "eNpLzkjMy0vN8U0szi62VXIMdfH0j3f2cPTzc/WJ9/SL9/X381fSt+NSgAEAfqUNSQ=="
+    },
+    {
+      "offset": 10664,
+      "before": "70636d2c6d756c74696368616e6e656c206f7574707574222f3e0a",
+      "after": "eNpTUAABG/2U1LLM5NSA/KISOy4FCAAAXAIGaQ=="
+    },
+    {
+      "offset": 10696,
+      "before": "20202020202020202020203c726f757465",
+      "after": "eNqz0U9JLctMTg3ILyoptuNSUAAANU8FfA=="
+    },
+    {
+      "offset": 10714,
+      "before": "747970653d226d6978222073696e6b3d22537065616b6572220a202020202020",
+      "after": "eNpTUIACG0VdXYWi/NKSVIWU1OScxKLEksz8PB0AdW4I+Q=="
+    },
+    {
+      "offset": 10747,
+      "before": "20202020",
+      "after": "eNrL1EvVAwADKgEr"
+    },
+    {
+      "offset": 10752,
+      "before": "20202020",
+      "after": "eNrLySwuAQAESQG9"
+    },
+    {
+      "offset": 10757,
+      "before": "202020",
+      "after": "eNpLzMkBAAJqATo="
+    },
+    {
+      "offset": 10761,
+      "before": "2020736f75726365733d227072696d61727920",
+      "after": "eNpLLEvMzElMyklVKM4vLUpOLVZIAwBKugdM"
+    },
+    {
+      "offset": 10781,
+      "before": "75747075742c7475",
+      "after": "eNorUkhUSM8sSwUAC4YCvw=="
+    },
+    {
+      "offset": 10790,
+      "before": "6e656c2070636d2c4254",
+      "after": "eNpTKM7My1bQ1bXjAgAQggKY"
+    },
+    {
+      "offset": 10801,
+      "before": "53434f",
+      "after": "eNpTUFAAAADDAGE="
+    },
+    {
+      "offset": 10805,
+      "before": "48656164736574204d6963222f3e0a20",
+      "after": "eNpTUAADm6L80pLUYjsuAByaBAc="
+    },
+    {
+      "offset": 10833,
+      "before": "2020203c726f75",
+      "after": "eNqzKcovLUlVAAAKnAKM"
+    },
+    {
+      "offset": 10841,
+      "before": "6520747970653d226d6978222073696e6b3d2257697265642048656164736574220a",
+      "after": "eNqrLEi1VcrNrFBSKM7My7ZV8nDx9VTwLy1R4lKAAgC4hAj4"
+    },
+    {
+      "offset": 10890,
+      "before": "2020202020202020736f75726365733d227072696d617279206f75747075742c74756e6e65",
+      "after": "eNorzi8tSk4ttlUqKMrMTSyqVMgvLSkoLdEpKc3LS81RKEjO1cktBQAVkw5p"
+    },
+    {
+      "offset": 10928,
+      "before": "2070",
+      "after": "eNoryQQAAVMA3g=="
+    },
+    {
+      "offset": 10931,
+      "before": "6d2c42542053434f2048656164736574204d69632c54756e6572222f3e0a",
+      "after": "eNrLSMzLS81RyC8tKSgt0UnJLEpNLlEoSixX0rfjUlAAALDlCjI="
+    },
+    {
+      "offset": 10975,
+      "before": "20203c726f75746520747970653d226d6978222073696e6b3d22576972",
+      "after": "eNqzKcovLUlVKKksSLVVys2sUFIozszLtlUKLkhNzAYAnIgKRQ=="
+    },
+    {
+      "offset": 11005,
+      "before": "64204865616470686f6e6573220a",
+      "after": "eNorUuJSQAAAELwB/w=="
+    },
+    {
+      "offset": 11031,
+      "before": "2020202020202020202020736f75",
+      "after": "eNorzi8tSk4ttlUqKMrMTQQAKkUFfQ=="
+    },
+    {
+      "offset": 11046,
+      "before": "6365733d22",
+      "after": "eNqrVMgvLQEABY0B8g=="
+    },
+    {
+      "offset": 11052,
+      "before": "72696d617279206f7574",
+      "after": "eNorLdEpKc3LS81RAAAV/wPM"
+    },
+    {
+      "offset": 11063,
+      "before": "7574",
+      "after": "eNpLzgUAATUA0Q=="
+    },
+    {
+      "offset": 11066,
+      "before": "74756e6e656c",
+      "after": "eNpzClEIdvYHAAWEAZw="
+    },
+    {
+      "offset": 11073,
+      "before": "70636d2c42542053434f2048656164736574",
+      "after": "eNrzSE1MKU4tUfDNTFbSt+NSUFAAADfvBPE="
+    },
+    {
+      "offset": 11092,
+      "before": "4d69632c54756e6572222f3e0a2020202020",
+      "after": "eNpTUEAAm6L80pJUABrcA+w="
+    },
+    {
+      "offset": 11111,
+      "before": "202020202020202020203c726f75746520747970",
+      "after": "eNorqSxItVXKzaxQUijOzMu2VQrPLAIASvwG+A=="
+    },
+    {
+      "offset": 11132,
+      "before": "3d226d6978222073696e6b3d227072696d617279",
+      "after": "eNpLUfBITUwpTi1R4lKAAQA6SgSP"
+    },
+    {
+      "offset": 11153,
+      "before": "696e707574220a",
+      "after": "eNpTUAADAAOHAOE="
+    },
+    {
+      "offset": 11166,
+      "before": "20202020202020202020202020202020",
+      "after": "eNorzi8tSk4ttlUqKMrMTSyqBAA2nAZo"
+    },
+    {
+      "offset": 11183,
+      "before": "736f75726365733d22427569",
+      "after": "eNrLLy0pKC3RKSnNy0sFACE+BQg="
+    },
+    {
+      "offset": 11196,
+      "before": "742d496e204d69632c4275696c742d496e204261636b204d69632c57697265642048656164736574",
+      "after": "eNpTKEjO1XEKUQh29lfwSE1MKU4tUfDNTNYJKc1LLVLSt+NSgAAA9rMK8g=="
+    },
+    {
+      "offset": 11237,
+      "before": "4d69632c4254",
+      "after": "eNpTUAABAAKmAME="
+    },
+    {
+      "offset": 11244,
+      "before": "53434f2048656164736574204d69632c54756e6572222f3e0a2020202020",
+      "after": "eNpTsCnKLy1JVSipLEi1VcrNrFBSKM7My7ZVCs8sSk0BAKBpCmw="
+    },
+    {
+      "offset": 11275,
+      "before": "2020202020200a3c726f757465",
+      "after": "eNrzSE1MKcjIz0stVuJSAAAhsARM"
+    },
+    {
+      "offset": 11289,
+      "before": "747970653d226d697822",
+      "after": "eNpTUIABAAbqAUE="
+    },
+    {
+      "offset": 11300,
+      "before": "73696e6b3d224254",
+      "after": "eNpTUIAAAASIAQE="
+    },
+    {
+      "offset": 11309,
+      "before": "41324450204f7574220a20202020202020",
+      "after": "eNpTKM4vLUpOLbZVKijKzE0sqgQAOL0GiA=="
+    },
+    {
+      "offset": 11327,
+      "before": "20202020202020202020202020",
+      "after": "eNrLLy0pKC3RKSnNy0vNAQAmsgV0"
+    },
+    {
+      "offset": 11341,
+      "before": "20736f75726365733d227072696d617279206f75747075742c74756e6e656c2061326470222f3e0a",
+      "after": "eNorSM7VcQpRCHb2V/BITUwpTi1R8M1M1gkpzUstUtK341KAAgD8pAry"
+    },
+    {
+      "offset": 11389,
+      "before": "202020202020",
+      "after": "eNqzKcovLUkFAAgQAmw="
+    },
+    {
+      "offset": 11396,
+      "before": "203c726f75746520747970653d226d6978222073696e6b3d2242542041324450",
+      "after": "eNorqSxItVXKzaxQUijOzMu2VSooysxNLKpUyMwrKC1R4gIAvjkLRg=="
+    },
+    {
+      "offset": 11429,
+      "before": "4865616470686f6e6573220a",
+      "after": "eNpTUEAAAAnMAYE="
+    },
+    {
+      "offset": 11451,
+      "before": "20202020202020202020202020736f75726365733d227072",
+      "after": "eNorzi8tSk4ttlVyKs3MKdH1zFPwzUzWcSoFAG7rCGQ="
+    },
+    {
+      "offset": 11476,
+      "before": "6d617279206f75747075742c74756e6e656c2061326470222f3e0a20",
+      "after": "eNrLKdH1zFNwSkzOVvDNTNYJzyxKTVHwSE1MKU4tAQCFkAmU"
+    },
+    {
+      "offset": 11505,
+      "before": "202020202020",
+      "after": "eNrzzUzWcQoBAAbJAdw="
+    },
+    {
+      "offset": 11512,
+      "before": "202020",
+      "after": "eNoLdvYHAAHRAOY="
+    },
+    {
+      "offset": 11516,
+      "before": "2020203c726f75746520747970653d226d6978222073696e6b3d224254",
+      "after": "eNrzSE1MKU4tUfDNTNYJKc1LLVLSt+NSgAIAjBIHyw=="
+    },
+    {
+      "offset": 11546,
+      "before": "4132445020537065616b6572220a20202020202020",
+      "after": "eNpTUFDgsinKLy1JVSipLEi1VcrNrFACAEFxBoc="
+    },
+    {
+      "offset": 11568,
+      "before": "2020202020202020",
+      "after": "eNorzszLtlVyCgEADVwCqw=="
+    },
+    {
+      "offset": 11577,
+      "before": "20202020",
+      "after": "eNpzNHIJAAACdgEI"
+    },
+    {
+      "offset": 11582,
+      "before": "20736f75726365733d227072696d617279",
+      "after": "eNrzLy1R4lJAAgAfigLl"
+    },
+    {
+      "offset": 11600,
+      "before": "6f75747075742c74756e6e656c2061326470",
+      "after": "eNpTUICB4vzSouTUYlsAIGkEgg=="
+    },
+    {
+      "offset": 11619,
+      "before": "2f3e0a20202020",
+      "after": "eNorKMrMTSyqBAAMBAMF"
+    },
+    {
+      "offset": 11627,
+      "before": "202020202020203c2f726f757465733e0a0a20202020",
+      "after": "eNrLLy0pKC3RKSnNy0vNUUg0SilQ0rfjAgBjbweU"
+    },
+    {
+      "offset": 11653,
+      "before": "3c2f6d6f64756c653e0a0a",
+      "after": "eNpTUIADAAhLAWE="
+    },
+    {
+      "offset": 11665,
+      "before": "202020202020",
+      "after": "eNqzKcovLUkFAAgQAmw="
+    },
+    {
+      "offset": 11672,
+      "before": "3c212d2d204132647020417564696f2048414c",
+      "after": "eNorqSxItVXKzaxQUijOzMu2VXIKAQBDxQZc"
+    },
+    {
+      "offset": 11692,
+      "before": "2d2d3e0a",
+      "after": "eNpzNHIJAAACdgEI"
+    },
+    {
+      "offset": 11697,
+      "before": "202020202020203c78693a696e636c756465",
+      "after": "eNrzSE1MKcjIz0stVuJSAAMAOQwE7A=="
+    },
+    {
+      "offset": 11716,
+      "before": "687265663d22613264705f617564696f5f706f6c6963795f636f6e66696775726174696f6e2e786d6c222f3e0a0a",
+      "after": "eNpTUEAFxfmlRcmpxbZKBUWZuYlFlQr5pSUFpSU6JaV5eak5AAXQDfs="
+    },
+    {
+      "offset": 11763,
+      "before": "202020202020203c212d2d",
+      "after": "eNpLNEopUNK341JQUAAAEVQCYQ=="
+    },
+    {
+      "offset": 11775,
+      "before": "557362",
+      "after": "eNpTUFAAAADDAGE="
+    },
+    {
+      "offset": 11779,
+      "before": "417564696f",
+      "after": "eNpTUAACAAHlAKE="
+    },
+    {
+      "offset": 11785,
+      "before": "48414c202d2d3e0a",
+      "after": "eNpTULApyi8tSQUACfICrA=="
+    },
+    {
+      "offset": 11794,
+      "before": "202020202020203c",
+      "after": "eNorqSxItVXKzQQADi0C+A=="
+    },
+    {
+      "offset": 11803,
+      "before": "693a696e636c75646520687265663d227573625f617564696f5f706f6c6963795f636f6e66696775726174696f6e2e786d6c222f3e0a0a20202020202020203c212d2d2052656d6f",
+      "after": "eNpTUijOzMu2VXIKUXA0cglQCC5ITcxOLVLiUsAOivNLi5JTi22VCooycxOLKhXyS0sKSkt0AIvVE28="
+    },
+    {
+      "offset": 11876,
+      "before": "65205375626d697820417564696f",
+      "after": "eNorzctLzVFINEopUNK34wIAJWoEQw=="
+    },
+    {
+      "offset": 11891,
+      "before": "48414c",
+      "after": "eNpTUFAAAADDAGE="
+    },
+    {
+      "offset": 11895,
+      "before": "2d2d3e0a",
+      "after": "eNpTUFBQAAABRACB"
+    },
+    {
+      "offset": 11902,
+      "before": "20202020203c78693a696e636c756465",
+      "after": "eNqz0S/KLy1JLbbj4lIAAQApNwQA"
+    },
+    {
+      "offset": 11919,
+      "before": "687265663d22725f7375626d69785f617564696f5f706f6c6963795f636f6e66696775726174696f6e2e786d6c222f3e0a0a",
+      "after": "eNpTULDRz81PKc1JtePiUoACG0VdXQVHo5QCBcfSlMx8BQ9HHwVdXTuIPAAmxQsL"
+    },
+    {
+      "offset": 11972,
+      "before": "20202020203c212d2d20486561",
+      "after": "eNqzqci0ysxLzilNSVXIAAAhjgTE"
+    },
+    {
+      "offset": 11986,
+      "before": "696e6720",
+      "after": "eNpLTbNVAgADZgEr"
+    },
+    {
+      "offset": 11991,
+      "before": "69",
+      "after": "eNozAgAAMwAz"
+    },
+    {
+      "offset": 11993,
+      "before": "20417564696f2048414c202d2d3e0a20202020202020203c212d2d203c",
+      "after": "eNoriE8sTcnMjy/Iz8lMroxPzs9Ly0wvLUosyczP0wMAs54L1g=="
+    },
+    {
+      "offset": 12023,
+      "before": "693a696e636c756465",
+      "after": "eNrLzVHSt+PiUlAAAAsiAb0="
+    },
+    {
+      "offset": 12033,
+      "before": "687265663d2268656172696e675f6169",
+      "after": "eNpTUAACG0VdXYXQ4iQFx1IAF6cDeA=="
+    },
+    {
+      "offset": 12050,
+      "before": "5f617564696f5f706f6c6963795f636f6e66696775726174696f6e2e786d6c222f3e202d2d3e0a0a20202020202020203c212d2d204d534420417564696f2048414c20286f7074696f6e616c29",
+      "after": "eNrLzFfwcPRR0NW141KAApuKTKvMvOSc0pRUhYyi1DRbpdLipPjE0pTM/PiC/JzM5Mr45Py8tMz00qLEksz8PL2K3BwlfTsuLgUAhREYsg=="
+    },
+    {
+      "offset": 12128,
+      "before": "2d2d3e0a",
+      "after": "eNpTUFBQAAABRACB"
+    },
+    {
+      "offset": 12134,
+      "before": "20202020",
+      "after": "eNqzUdTVBQAB3gC4"
+    },
+    {
+      "offset": 12139,
+      "before": "203c212d2d203c78693a696e636c75646520687265663d226d73645f617564696f5f706f6c6963795f636f6e66696775726174696f6e2e786d6c222f3e202d2d3e0a0a202020203c2f6d6f64756c65733e0a202020203c212d2d20456e64206f66204d6f64756c6573",
+      "after": "eNoLSs3NL0lVCC5Nys2sUHAsTcnMV/Bw9FHQ1bXjUoACm4pMq8y85JzSlFSFjKLUNFulovhisIb4RJCG+IL8nMzkyvjk/Ly0zPTSosSSzPw8vYrcHCV9Oy6YKQAT7CHP"
+    },
+    {
+      "offset": 12245,
+      "before": "73656374696f6e202d2d3e0a0a202020",
+      "after": "eNqzUdTVVfBITSzKzEtXSMxMAQAkUATk"
+    },
+    {
+      "offset": 12262,
+      "before": "3c212d2d20566f6c756d652073656374696f6e",
+      "after": "eNpzLE3JzFfwcPRR0NW141IAAQA0mARK"
+    },
+    {
+      "offset": 12282,
+      "before": "2d2d3e0a0a20",
+      "after": "eNpTULBR1NUFAANAAPg="
+    },
+    {
+      "offset": 12289,
+      "before": "20203c78",
+      "after": "eNqzqci0AgADaAFY"
+    },
+    {
+      "offset": 12294,
+      "before": "3a696e636c75646520687265663d22",
+      "after": "eNrLS84pTUlVyChKTbNVykgFAC2KBW0="
+    },
+    {
+      "offset": 12310,
+      "before": "7564696f",
+      "after": "eNorysxLBwAESgGx"
+    },
+    {
+      "offset": 12315,
+      "before": "706f6c6963795f76",
+      "after": "eNpLzEyJTyxNyQQADjYDMQ=="
+    },
+    {
+      "offset": 12324,
+      "before": "6c756d65732e786d6c222f3e0a202020203c78693a696e63",
+      "after": "eNqLL8jPyUyujE/Oz0vLTC8tSizJzM/Tq8gFAHwYCdo="
+    },
+    {
+      "offset": 12349,
+      "before": "756465",
+      "after": "eNpT0rcDAAEFAJA="
+    },
+    {
+      "offset": 12353,
+      "before": "687265663d2264656661756c745f766f6c756d655f7461626c65732e786d6c222f3e0a0a202020203c212d",
+      "after": "eNrT1bXj4lKAAhtFXV0F32AXBcfSlMx8BQ9HHwWN/IKSzPy8xBxNBQC6uApm"
+    },
+    {
+      "offset": 12397,
+      "before": "20456e64",
+      "after": "eNrTteNSAAABpgCW"
+    },
+    {
+      "offset": 12402,
+      "before": "6f66",
+      "after": "eNpTUAAAAGIAQQ=="
+    },
+    {
+      "offset": 12405,
+      "before": "566f6c756d652073656374696f",
+      "after": "eNpTUFCwUdTVVbCpyLTKBAAQlQL4"
+    },
+    {
+      "offset": 12419,
+      "before": "202d2d3e0a0a3c2f617564696f506f6c69637943",
+      "after": "eNpLzilNSVXIKEpNs1XKLU6JTyxNyQQATeIHeA=="
+    },
+    {
+      "offset": 12440,
+      "before": "6e6669677572617469",
+      "after": "eNqLL8jPyUyujE8GABKWA7I="
+    },
+    {
+      "offset": 12451,
+      "before": "3e0a",
+      "after": "eNp1kM0KwjAQhO95irX3mLvUXMSj4MlriPnRwCYrbSL17bVpUcG6t2XmY4bx4VI6nQOl9RCxERI4l4zB61oRyRZ0vZzeFeewTxbIw2ESoHdmRL+Y0XQiLNEtiEPYhGSwWAfXzvlto4sNpG6EwTzUvWL93OMPYZ3XBfNsVlmf8YP89Fxq0oqaeqyhO0r+vYBkTzseVK4="
+    }
+  ]
+}

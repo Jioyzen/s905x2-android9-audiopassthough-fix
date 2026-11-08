@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-08",
+  "toolchain": "Android NDK r28c, ARMv7 API28",
+  "python": "3.12",
+  "six_exact_reconstructions_verified": true,
+  "source_rebuilds": [
+    {
+      "target": "/vendor/lib/hw/audio.primary.amlogic.so",
+      "sha256": "7e40c5b3ae752600f07a2e09b87c429761f0886b1a4d1c887dfabdc2fa01e0fd",
+      "matches_active_artifact": true,
+      "method": "source_patch_or_source_link"
+    },
+    {
+      "target": "/vendor/lib/libdroidaudiospdif.so",
+      "sha256": "2c817edf3354308766801b81e6e7db4fd8d69a07cef7b840451f86d009a10b22",
+      "matches_active_artifact": true,
+      "method": "source_patch_or_source_link"
+    },
+    {
+      "target": "/vendor/etc/audio_policy_configuration.xml",
+      "sha256": "511a3f90180838700eab58d5778f9e8306c79fa9e39284cffb6ad0df54b35451",
+      "matches_active_artifact": true,
+      "method": "binary_reconstruction"
+    },
+    {
+      "target": "/system/framework/arm/boot-framework.oat",
+      "sha256": "a9e5ee40dd29f9e83cbac583b49489fc28b1d1110ae2867a1bc61f5aea99d1a0",
+      "matches_active_artifact": true,
+      "method": "source_patch_or_source_link"
+    },
+    {
+      "target": "/system/framework/boot-framework.vdex",
+      "sha256": "004339a48183f6e0a5321dea07b3ca0728f36417ffd42870a646ce7d60298c27",
+      "matches_active_artifact": true,
+      "method": "source_patch_or_source_link"
+    },
+    {
+      "target": "/system/lib/libaudioflinger.so",
+      "sha256": "fa18e812aff9937149a8f25a6bd1ef1a1be74bbe9e406e3636f62141f43ec233",
+      "matches_active_artifact": true,
+      "method": "source_patch_or_source_link"
+    }
+  ],
+  "tests": {
+    "hal_thumb_hooks": "passed",
+    "audioflinger_thumb_abi_buffer_cases": 240,
+    "dts_detector_thumb_and_integration": "passed"
+  },
+  "device_accessed_for_repository_preparation": false,
+  "notes": "Portable source builds of both HAL/AudioFlinger patches, framework tables and SPDIF library match current device artifact SHA. Policy reconstructed exactly. Packer normalizes compiler __FILE__ paths to preserve archived binary identity."
+}
