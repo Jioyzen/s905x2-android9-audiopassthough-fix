@@ -7,5 +7,7 @@ with tarfile.open(archive,'w:xz') as tar:
     for p in sorted((R/'artifacts').rglob('*')):
         if p.is_file(): tar.add(p,arcname=str(p.relative_to(R/'artifacts')),recursive=False)
     for src,dest in [('manifests/active-files.json','active-files.json'),('docs/部署与回退.md','部署与回退.md'),('README.md','README.md'),('NOTICE.md','NOTICE.md')]:tar.add(R/src,arcname=dest)
+    tar.add(R/'third_party/licenses',arcname='licenses')
+    tar.add(R/'LICENSE',arcname='LICENSE')
 (out/'SHA256SUMS').write_text(hashlib.sha256(archive.read_bytes()).hexdigest()+'  '+archive.name+'\n')
 print(archive)

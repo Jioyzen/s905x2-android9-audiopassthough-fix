@@ -1,4 +1,4 @@
-"""Verify six payload files and pinned dependencies without accessing any device."""
+"""Verify archived payload files and pinned dependencies without accessing any device."""
 from pathlib import Path
 import hashlib,json,sys
 from common import ROOT as R

@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-09",
+  "component": "AudioFlinger native client heap",
+  "property_before_kib": 1536,
+  "property_after_kib": 8192,
+  "requested_encoded_bytes": 2250000,
+  "allocation_bytes": 4194528,
+  "prior_heap_bytes": 1572864,
+  "six_prior_artifacts_unchanged": true,
+  "normal_reboot_property_verified": true,
+  "playback": {
+    "app": "默影视 / com.silent.android.webhtv",
+    "engine": "EXO",
+    "track": "DTS-HD MA 5.1 / encoding8 / 48k",
+    "user_feedback": "成功点亮DTS-HD 声音正常",
+    "result": "user_confirmed_tested_playback",
+    "limits": "All formats, track switches and long-term playback not exhaustively tested."
+  },
+  "logs_public": false
+}

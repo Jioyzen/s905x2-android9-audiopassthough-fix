@@ -1,11 +1,11 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "device": "Jiefu / Jeff2021 / SN5BBAO",
   "firmware": "PI.4333",
   "android_api": 28,
   "kernel": "4.9.113 ARM64",
   "userspace_abi": "armeabi-v7a / ARM32 Thumb",
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "files": [
     {
       "target": "/vendor/lib/hw/audio.primary.amlogic.so",
@@ -66,6 +66,17 @@
       "source_sha256": "b3fec98c77e404ea3d84ef47ef142732122340ea9da0339f5920a9f458766f17",
       "mode": "0644",
       "owner": "root:root"
+    },
+    {
+      "target": "/vendor/build.prop",
+      "artifact": "artifacts/rootfs/vendor/build.prop",
+      "component": "client_heap",
+      "bytes": 4291,
+      "sha256": "1404762bb62e3c1fe02000f7a6d6520ecef67ca185ef38473bcdf43b7e58a864",
+      "source_sha256": "3dbf0f9ed9490d41905e7ff8465e79d7959417fc8184fce577c0769fea93a683",
+      "mode": "0644",
+      "owner": "root:root",
+      "change": "ro.af.client_heap_size_kbyte=1536 -> 8192 only"
     }
   ],
   "verified_playback": {
@@ -75,7 +86,8 @@
     "TrueHD": "user_confirmed_continuous_playback",
     "DTS_HD_MA_7_1": "user_confirmed_continuous_playback",
     "DTS_ES_6_1": "code_and_track_creation_only",
-    "Atmos": "code_analysis_only_not_receiver_verified"
+    "Atmos": "code_analysis_only_not_receiver_verified",
+    "EXO_DTS_HD_MA_5_1": "user_confirmed_DTS_HD_lit_and_sound_normal"
   },
   "not_modified": [
     "player APK or data",

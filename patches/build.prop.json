@@ -1,0 +1,14 @@
+{
+  "target": "/vendor/build.prop",
+  "source_sha256": "3dbf0f9ed9490d41905e7ff8465e79d7959417fc8184fce577c0769fea93a683",
+  "sha256": "1404762bb62e3c1fe02000f7a6d6520ecef67ca185ef38473bcdf43b7e58a864",
+  "size": 4291,
+  "encoding": "after=zlib+base64; before=hex",
+  "ranges": [
+    {
+      "offset": 2881,
+      "before": "31353336",
+      "after": "eNqzMLQ0AgACGwDV"
+    }
+  ]
+}

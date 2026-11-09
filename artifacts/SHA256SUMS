@@ -4,3 +4,4 @@
 a9e5ee40dd29f9e83cbac583b49489fc28b1d1110ae2867a1bc61f5aea99d1a0  rootfs/system/framework/arm/boot-framework.oat
 004339a48183f6e0a5321dea07b3ca0728f36417ffd42870a646ce7d60298c27  rootfs/system/framework/boot-framework.vdex
 fa18e812aff9937149a8f25a6bd1ef1a1be74bbe9e406e3636f62141f43ec233  rootfs/system/lib/libaudioflinger.so
+1404762bb62e3c1fe02000f7a6d6520ecef67ca185ef38473bcdf43b7e58a864  rootfs/vendor/build.prop

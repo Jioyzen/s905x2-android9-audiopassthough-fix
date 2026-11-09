@@ -6,3 +6,4 @@ third_party/ffmpeg-armv7/config.h whitespace=-blank-at-eol
 *.vdex binary
 *.a binary
 *.xz binary
+artifacts/rootfs/vendor/build.prop whitespace=-blank-at-eol
