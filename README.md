@@ -2,10 +2,12 @@
 
 为某 S905X2 盒子修复 HDMI 音频源码直通。本仓库保存**实机测试有效的七个文件、补丁源码、精确二进制差异、构建方法及验证记录**，用于维护与复现。
 
-实机测试确认 DD、DD+、DTS 正常，TrueHD 与 DTS-HD MA 7.1 在最终缓冲修复后持续播放正常
+实机测试确认 DD、DD+、DTS 正常，TrueHD 与 DTS-HD MA 7.1 在缓冲修复后播放正常
 2026-11-09补充8MiB客户端堆后，默影视EXO DTS-HD 5.1/7.1 也测试通过
 杜比 atoms 全景声元数据能正常转发，DDP 和 TrueHD 核心的全景声音频，均能够点亮 atoms 全景声标识
+如果使用回音壁，建议盒子先接回音壁，回音壁的 HDMI OUT 再接电视，以确保次世代音频能正确透传解码
 理论上修复适用于S905L3A等机型，但未做实机验证
+
 
 **修改全部位于盒子 Android 系统层，没有修改 “默影视” 、飞牛TV 的播放器逻辑、缓存设置或数据库。安卓层面进行兼容，理论上兼容各类exoplayer核心的影视软件。** 
 - [下载修复包](https://github.com/Jioyzen/jiefu-android9-audio-fix/releases)
@@ -31,7 +33,7 @@
 
 以下是最终生效的**全部七个音频文件**，镜像目录在 `artifacts/rootfs/`，完整原件/产物 SHA-256 见 [active-files.json](manifests/active-files.json)。
 
-| 文件的路径 | 修改方式 | 解决的问题 |
+| 文件路径 | 修改方式 | 解决的问题 |
 |---|---|---|
 | `/vendor/lib/hw/audio.primary.amlogic.so` | 原厂 HAL 精确二进制补丁，加入本机 ARM32 C/汇编辅助代码 | HD 能力查询、TrueHD/DTS-HD 格式保留、HBR 时钟与缓冲、时间戳/延迟、pause/resume、DTS-HD 被标成 DTS 的识别 |
 | `/vendor/lib/libdroidaudiospdif.so` | 基于 AOSP 兼容接口和参考项目源码重新链接 | TrueHD 的 IEC 61937/MAT 封装、完整 DTS-HD 封装、普通 AC3/EAC3/DTS 边界处理及降日志 |
