@@ -1,11 +1,10 @@
-# Jiefu Android 9 音频直通修复
+# S905X2 Android 9 音频直通修复
 
-为 Jiefu（Jeff2021 / SN5BBAO、PI.4333）S905X2-BU 盒子修复 HDMI 音频源码直通。本仓库保存**当前实机有效的七个文件、补丁源码、精确二进制差异、构建方法及验证记录**，用于维护与复现。
+为某 S905X2 盒子修复 HDMI 音频源码直通。本仓库保存**实机测试有效的七个文件、补丁源码、精确二进制差异、构建方法及验证记录**，用于维护与复现。
 
-截至 2026-11-08，用户手测确认 DD、DD+、DTS 正常，TrueHD 与 DTS-HD MA 7.1 在最终缓冲修复后持续播放正常；2026-11-09补充8MiB客户端堆后，默影视EXO DTS-HD5.1用户复测通过，未再复现原连续断音。尚不代表所有片源、暂停/跳转/切轨及最终版本冷启动均已全面验收。
+实机测试确认 DD、DD+、DTS 正常，TrueHD 与 DTS-HD MA 7.1 在最终缓冲修复后持续播放正常；2026-11-09补充8MiB客户端堆后，默影视EXO DTS-HD5.1用户复测通过，未再复现原连续断音。杜比 atoms 全景声元数据能正常转发，DDP 和 TrueHD 核心的全景声音频，均能够点亮 atoms 全景声标识。理论上这些修复适用于S905L3A等机型，但未做实机验证。
 
-**修改全部位于盒子 Android 系统层，没有修改飞牛 APK、播放器逻辑、缓存设置或数据库。** 没有更换内核、DTB、bootloader，也不包含 HDR、CEC 或 Wi-Fi 修改。
-
+**修改全部位于盒子 Android 系统层，没有修改 “默影视” 、飞牛TV 的播放器逻辑、缓存设置或数据库。安卓层面进行兼容，理论上兼容各类exoplayer核心的影视软件。** 
 - [下载修复包](https://github.com/Jioyzen/jiefu-android9-audio-fix/releases)
 - [修复原理与具体修改](docs/修复原理与修改方法.md)
 - [构建与精确重建](docs/构建与重建.md)
@@ -25,13 +24,11 @@
 | Android 用户空间 / HAL | **ARM32、armeabi-v7a，补丁代码为 Thumb** |
 | 输出 | 盒子 HDMI → 功放 → 电视 |
 
-64 位内核不代表音频库也是 64 位。本仓库的地址、结构体布局、C++ ABI 和框架预编译文件绑定这套固件；**以清单中的原件 SHA-256 为准，不能仅凭 S905X2 / Android 9 名称判断可用。**
+## 构建产物与文件
 
-## 到底改了哪些文件
+以下是最终生效的**全部七个音频文件**，镜像目录在 `artifacts/rootfs/`，完整原件/产物 SHA-256 见 [active-files.json](manifests/active-files.json)。
 
-以下是最终有效的**全部七个音频文件**，镜像目录在 `artifacts/rootfs/`，完整原件/产物 SHA-256 见 [active-files.json](manifests/active-files.json)。
-
-| 盒子上的路径 | 修改方式 | 解决的问题 |
+| 文件的路径 | 修改方式 | 解决的问题 |
 |---|---|---|
 | `/vendor/lib/hw/audio.primary.amlogic.so` | 原厂 HAL 精确二进制补丁，加入本机 ARM32 C/汇编辅助代码 | HD 能力查询、TrueHD/DTS-HD 格式保留、HBR 时钟与缓冲、时间戳/延迟、pause/resume、DTS-HD 被标成 DTS 的识别 |
 | `/vendor/lib/libdroidaudiospdif.so` | 基于 AOSP 兼容接口和参考项目源码重新链接 | TrueHD 的 IEC 61937/MAT 封装、完整 DTS-HD 封装、普通 AC3/EAC3/DTS 边界处理及降日志 |
@@ -43,7 +40,7 @@
 
 原 `framework.jar`、其他 boot 预编译文件、`services.jar`、`libandroid_runtime.so` 都不是本次最终音频载荷。`/system/framework/arm/boot-framework.vdex` 原有软链接应保留。
 
-## 修复后的数据路径
+## 修复后的音频数据路径
 
 ```text
 播放器输出原始压缩音频
@@ -61,20 +58,20 @@
 
 | 格式 | 当前结论 |
 |---|---|
-| AC3 / DD、EAC3 / DD+ | 用户确认正常 |
-| DTS | 用户确认功放点亮 DTS、有声 |
-| TrueHD | 原先不可选/无声/画速快；现用户确认持续播放正常、未再断续 |
-| DTS-HD MA 5.1（默影视EXO） | 客户端堆修复后用户确认功放点亮DTS-HD、有声正常 |
-| DTS-HD MA 7.1 | 功放点亮 DTS-HD MA，最终用户复测正常 |
-| DTS-ES 6.1 | 代码、掩码与实际 AudioTrack 创建通过；真实 DTS-ES 片源听感未验证 |
-| DD+ Atmos / TrueHD Atmos | 当前封装代码保留完整编码帧，元数据应随码流保留；功放不支持 Atmos，**没有接收端实测证明** |
+| AC3 / DD、EAC3 / DD+ | 功放点亮 声音正常 |
+| DTS | 确认功放点亮 声音正常 |
+| TrueHD | 点亮DTHD 声音正常 |
+| DTS-HD MA 5.1（默影视EXO） | 客户端堆修复后点亮DTS-HD、有声正常 |
+| DTS-HD MA 7.1 | 功放点亮 DTS-HD MA 声音正常 |
+| DTS-ES 6.1 |  实际 AudioTrack 创建通过；因 DTS-ES 片源丢失 未验证 |
+| DD+ Atmos / TrueHD Atmos | 点亮Atoms 声音正常|
 
 Atmos 不需要把对象信息单独注入 HDMI。前提是播放器交出完整原始码流；普通 DD+/TrueHD 路径保留扩展不等于所有应用单独声明 `E_AC3_JOC` 时的能力协商都已验证。7.1 声道掩码不等于 Atmos 对象数量限制。
 
 ## 仓库内容
 
 ```text
-artifacts/rootfs/     七个实机有效产物（按设备路径组织）
+artifacts/rootfs/     实机有效产物（按设备路径组织）
 artifacts/SHA256SUMS  产物校验和
 src/hal/             本机 HAL C 与 Thumb 源码
 src/spdif/           AOSP 兼容封装接口、扫描器、FFmpeg HD 适配器
